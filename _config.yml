@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Freddie Christiansen"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Hi, I'm Freddie"
+  bio    : "Hi, I'm Freddie. Update-test 1,2,3."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
