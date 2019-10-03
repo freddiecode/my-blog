@@ -65,7 +65,7 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://"
-    - label: "Hamar, Norway"
+    - label: "Hamar - Norway"
       icon: "fas fa-map-marker-alt"
     - label: Mail"
       icon: "far fa-envelope"
