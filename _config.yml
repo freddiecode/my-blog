@@ -67,9 +67,6 @@ author:
       url: "https://"
     - label: "Hamar, Norway"
       icon: "fas fa-map-marker-alt"
-    - label: "Mail"
-      icon: "far fa-envelope"
-      url: "mailto:freddie@cloudpilot.no
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/"
