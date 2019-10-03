@@ -65,10 +65,10 @@ author:
   links:
     - label: "Hamar, Norway"
       icon: "fas fa-map-marker-alt"
-    - label: "Mail"
+    - label: " Mail"
       icon: "far fa-envelope"
       url: "mailto:freddie@cloudpilot.no"
-    - label: "LinkedIn"
+    - label: " LinkedIn"
       icon: "fab fa-linkedin"
       url: "www.linkedin.com/in/freddie-christiansen-64305b106"
 
