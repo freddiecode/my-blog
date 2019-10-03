@@ -63,20 +63,17 @@ author:
   bio    : "Hi, I'm Freddie. I like PowerShell."
   location : "Hamar, Norway"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
     - label: "Hamar, Norway"
       icon: "fas fa-map-marker-alt"
+    - label: "CloudPilot.no"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.cloudpilot.no"
     - label: "Mail"
       icon: "far fa-envelope"
-      url: "freddie@cloudpilot.no"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "mailto:freddie@cloudpilot.no"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "www.linkedin.com/in/freddie-christiansen-64305b106"
 
 footer:
   links:
