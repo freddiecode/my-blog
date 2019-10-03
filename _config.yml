@@ -65,9 +65,6 @@ author:
   links:
     - label: "Hamar, Norway"
       icon: "fas fa-map-marker-alt"
-    - label: "CloudPilot.no"
-      icon: "fas fa-fw fa-link"
-      url: "https://www.cloudpilot.no"
     - label: "Mail"
       icon: "far fa-envelope"
       url: "mailto:freddie@cloudpilot.no"
