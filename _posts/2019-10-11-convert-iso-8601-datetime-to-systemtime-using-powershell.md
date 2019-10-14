@@ -13,17 +13,17 @@ tags:
 
 This very first blogpost I will dedicate to demonstate how you easily can convert from ISO 8601 datetime format to current systemtime using PowerShell. Let's get going!
 
-After spending almost 3 hours seaching the Internet and reading multiple articles and blogpost on the similar subject, I finally found a method that meet my requirements (..and it was surprising simple!).
+After spending almost 3 hours seaching the Internet and reading multiple articles and blogpost on the similar subject, I finally found a method that meet my requirements (..and it was surprisingly simple!).
 
 **First, a litte facts about the ISO 8601 format:**
 
 >*ISO 8601 Data elements and interchange formats – Information interchange – Representation of dates and times is an international standard covering the exchange of date- and time-related data. It was issued by the International Organization for Standardization (ISO) and was first published in 1988. The purpose of this standard is to provide an unambiguous and well-defined method of representing dates and times, so as to avoid misinterpretation of numeric representations of dates and times, particularly when data are transferred between countries with different conventions for writing numeric dates and times.*
 
-You can read more about the ISO 8601 format on [Wikipedia](https://en.wikipedia.org/wiki/ISO_8601)
+You can read more about the ISO 8601 format on [Wikipedia](https://en.wikipedia.org/wiki/ISO_8601).
 
 **Now, down to the fun stuff:**
 
-In the follwing example below, I make a ````$date```` variable containing my ISO 8604-timestamp.  
+In the following example below, I make a ````$date```` variable containing my ISO 8601-timestamp.  
 I then call the ```[datetime]::Parse()``` method  containing my variable (*$date*)
 
 
@@ -39,7 +39,7 @@ The following output is written to the console:
 onsdag 9. oktober 2019 16:06:14
 ```
 Note the example output is written in Norwegian.
-The cool stuff is that this metod will convert the ISO 8601 to your current system settings.
+The cool stuff is that this method will convert the ISO 8601 to your current system settings.
 
 
 **You can also create a hashtable and use a ```foreach```-loop:**
