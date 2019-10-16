@@ -5,7 +5,7 @@ title: "About"
 
 Freddie Christiansen currently works as a Technical Consultant at Elverum municipality.
 
-![Freddie Christiansen](/assets/images/bio-photo.jpg "Test")
+![Freddie Christiansen](/assets/images/bio-photo.jpg =200x200)
 
 Products and services he works with include Microsoft infrastructure such as Windows Server, Exchange Server and Office 365.
 
