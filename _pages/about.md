@@ -3,6 +3,25 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+Freddie Christiansen currently works as a Technical Consultant at Elverum municipality.
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+![]"/assets/images/bio-photo.jpg"
+
+Products and services he works with include Microsoft infrastructure such as Windows Server, Exchange Server and Office 365.
+
+He is also experienced with Hyper-V, VMware, Microsoft Azure, IBM Cloud and Cisco Meraki.
+
+In his job he meets different objectives and tries to solve them all using PowerShell.
+
+He is a member of the Norwegian PowerShell User Group and spends a lot of time and effort to expand his technical skills.
+
+
+Certifications:
+
+* VMware Certified Associate (VCA-DCV) - Data Center Virtualization
+* VMware Data Center Virtualization Fundamentals v6
+* Cisco Certified Entry Networking Technician (ICND1) – *04/16 – 04/19*
+
+LinkedIn: [Freddie Christiansen](<https://www.linkedin.com/in/freddie-christiansen-64305b106>)
+
+Mail: [Freddie Christiansen](<mailto:freddie@cloudpilot.no>)
