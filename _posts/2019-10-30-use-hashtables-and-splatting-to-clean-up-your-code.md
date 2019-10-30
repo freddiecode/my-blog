@@ -12,6 +12,7 @@ tags:
 
 ### Use splatting, hashtables and variables to keep your scripts clean
 
+
 In the past few weeks, I have spend a lot of time working with the ````Invoke-WebRequest```` cmdlet.  
 Laying down some time and effort to keep your code as clean as possible will help you see errors, typos and correct them much quicker, then working with *messy code*.
 
