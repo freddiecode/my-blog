@@ -51,7 +51,7 @@ $Params = @{
          "Referer" = "https://app.melcloud.com/"
          "Origin" = "https://app.melcloud.com"
          "X-Requested-With" = "XMLHttpRequest"
-         "User-Agent" = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+         "User-Agent" = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120  Safari/537.36"
          "Sec-Fetch-Mode" = "cors"
 
 
@@ -60,9 +60,6 @@ $Params = @{
 
     ContentType = "application/json; charset=UTF-8"
 
-
-
-    
 
     Body = @{
     
@@ -76,11 +73,9 @@ $Params = @{
 
       } | ConvertTo-Json
        
-
-    
+  
     }
    
-
 
 Invoke-WebRequest @Params
 ``````  
