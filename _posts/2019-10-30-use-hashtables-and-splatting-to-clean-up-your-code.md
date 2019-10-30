@@ -1,5 +1,5 @@
 ---
-title:  "Use splatting, hashtables and variables to keep your script clean"
+title:  "Use splatting, hashtables and variables to keep your scripts clean"
 date:   2019-10-30 21:03:00
 categories: 
 - Blog
@@ -10,7 +10,7 @@ tags:
   - Invoke-WebRequest
 ---
 
-### Use hashtables and splatting to clean up your scripts
+### Use splatting, hashtables and variables to keep your scripts clean
 
 In the past few weeks, I have spend a lot of time working with the ````Invoke-WebRequest```` cmdlet.  
 Laying down some time and effort to keep your code as clean as possible will help you see errors, typos and correct them much quicker, then working with *messy code*.
