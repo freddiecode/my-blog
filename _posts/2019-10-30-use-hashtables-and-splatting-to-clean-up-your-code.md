@@ -31,7 +31,7 @@ Invoke-WebRequest -Uri "https://app.melcloud.com/Mitsubishi.Wifi.Client/Login/Cl
 Please don`t mind the code, just have a look at the formatting. The code is taken from a project I am currently working on,  so it's only meant as an example in this post.
 More about that project later :nerd_face:
 
-*Messy right?*
+*-Messy right?*
 
 When you encounter some syntax error (and I promise you will :wink:), you can just imagine how much time you need to spend just to trying to read through and correcting your code. When writing so much text on a single line, it will take up the entire width of your screen, or wrap to more lines in your console. Where is the fun in that?
 
