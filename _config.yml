@@ -13,7 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-google_analytics: "UA-150962760-1"
+# Analytics
+analytics:
+  provider: "google-universal" # false (default), "google", "google-universal", "custom"
+  google:
+    tracking_id: "UA-150962760-1" # Replace this with your ID, or delete
+    anonymize_ip: true
 title: CloudPilot.no | Just another PowerShell blog
 email: freddie@cloudpilot.no
 description: >- # this means to ignore newlines until "baseurl:"
