@@ -14,13 +14,13 @@ tags:
 
 
 In the past few weeks, I have spend a lot of time working with the ````Invoke-WebRequest```` cmdlet.  
-Laying down some time and effort to keep your code as clean as possible will help you see errors, typos and correct them much quicker, then working with *messy code*.
+Laying down some time and effort to keep your code as clean as possible will help you see errors, typos and correct them much quicker, rather then working with *messy code*.
 
-**Say Hello To My Little Friend - Splatting**
+**Say Hello To My Little Friend: ````Splatting````**
 
 >*Splatting is a method of passing a collection of parameter values to a command as unit. PowerShell associates each value in the collection with a command parameter. Splatted parameter values are stored in named splatting variables, which look like standard variables, but begin with an At symbol (@) instead of a dollar sign ($). The At symbol tells PowerShell that you are passing a collection of values, instead of a single value.*
 
-Taken from [PowerShell Docs](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_splatting?view=powershell-6).
+Taken from [PowerShell Docs](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_splatting?view=powershell-6)
 
 **Example:**  
 
