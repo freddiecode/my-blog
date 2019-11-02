@@ -24,7 +24,7 @@ He is a member of the Norwegian PowerShell User Group and spends a lot of time a
 | New complete on-prem server infrastructure with RDS-solution | Hyper-V, Windows Server, Windows SQL-server| 
 | Migration from Exchange Server 2010 to Office 365 (Exchange Online)| Exchange Online (Office 365)|
 |New security- and wireless infrastructure accross multiple branch offices | Cisco Meraki
-|IaaS - Complete migration from VMware on-prem into IBM Cloud | IBM Cloud, Windows Server. Windows SQL-server, Vyos
+|IaaS - Complete migration from VMware on-prem into IBM Cloud | IBM Cloud, Windows Server. Windows SQL-server, VyOS
 |New security infrastructure accross multiple european countries | Cisco Meraki
 
  
