@@ -21,10 +21,10 @@ He is a member of the Norwegian PowerShell User Group and spends a lot of time a
 | Project        | Technologies used| 
 | ------------- |:-------------:| 
 | Email migration from Google Suite and on-prem fileservers into a complete Office 365 solution      | Office 365 (focusing on Exchange Online and SharePoint Online)  | 
-| New complete on-prem server infrastructure with RDS-solution | Hyper-V, Windows Server, Windows SQL-server| 
+| New complete on-prem server infrastructure with RDS-solution | Hyper-V, Windows Server, Microsoft SQL-server| 
 | Migration from Exchange Server 2010 to Office 365 (Exchange Online)| Exchange Online (Office 365)|
 |New security- and wireless infrastructure accross multiple branch offices | Cisco Meraki
-|IaaS - Complete migration from VMware on-prem into IBM Cloud | IBM Cloud, Windows Server. Windows SQL-server, VyOS
+|IaaS - Complete migration from VMware on-prem into IBM Cloud | IBM Cloud, Windows Server. Microsoft SQL-server, VyOS
 |New security infrastructure accross multiple european countries | Cisco Meraki
 
  
