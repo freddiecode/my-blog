@@ -27,8 +27,7 @@ He is a member of the Norwegian PowerShell User Group and spends a lot of time a
 |IaaS - Complete migration from VMware on-prem into IBM Cloud | IBM Cloud, Windows Server. Windows SQL-server, Vyos
 |New security infrastructure accross multiple european countries | Cisco Meraki
 
-
-  
+ 
 **Certifications:**
 
 
@@ -47,6 +46,8 @@ He is a member of the Norwegian PowerShell User Group and spends a lot of time a
 *  Xamarin Development
 
 
+
+**Wanna get in touch with him?**
 
 LinkedIn: [Freddie Christiansen](<https://www.linkedin.com/in/freddie-christiansen-64305b106>)
 
