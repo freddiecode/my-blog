@@ -65,11 +65,14 @@ Then, navigate to the saved location of your PS1-file and *dotsource* it using t
 
 Now you have the function avaiable in your console, and ready to use.
 
-![DotSourcing](/assets/images/WeatherForecast/READY.PNG)
+<img src= "/assets/images/WeatherForecast/READY.PNG" width="1362" height="93"/>
 
-Select your desired location using the ````Location```` parameter and get ready to be exited! :blush:
+Select your desired location using the ````Location```` parameter and get ready to be exited!
 
-![DotSourcing](/assets/images/WeatherForecast/FINAL.PNG)
+Below you can see the final result. The weather forecast of the city Hamar the next couple of days :blush:
+Note the example output is written in Norwegian.
+
+<img src= "/assets/images/WeatherForecast/FINAL.PNG" width="1356" height="684"/>
 
 
 
