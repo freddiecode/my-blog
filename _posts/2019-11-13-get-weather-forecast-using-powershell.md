@@ -58,8 +58,8 @@ Write-Host "Could not find location. Please try another location" -ForegroundCol
 ````
 Not the most advanced function out there, but hey, it does the trick.
 
-To use it, you could do it so easy as copying the text above, and saving it as a .PS1-file by using PowerShell ISE or Visual Studio Code (or another editor of your choice).
-Then, navigate to the saved location of your PS1-file and *dotsource* it using this technique:
+To use it, you could do it so easy as copying the text above, and saving it as a .ps1-file by using PowerShell ISE or Visual Studio Code (or another editor of your choice).
+Then, navigate to the saved location of your .ps1-file and *dotsource* it using this technique:
 
 <img src= "/assets/images/WeatherForecast/DOT.PNG" width="1335" height="91"/>
 
