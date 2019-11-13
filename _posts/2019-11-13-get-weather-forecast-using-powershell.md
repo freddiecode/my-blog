@@ -63,6 +63,32 @@ Then, navigate to the saved location of your PS1-file and *dotsource* it using t
 ![DotSourcing](/assets/images/WeatherForecast/DOT.PNG)
 
 
+Now you have the function avaiable in your console, and ready to use.
+
+![DotSourcing](/assets/images/WeatherForecast/READY.PNG)
+
+Select your desired location using the ````Location```` parameter and get ready to be exited! :blush:
+
+![DotSourcing](/assets/images/WeatherForecast/FINAL.PNG)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
