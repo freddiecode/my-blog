@@ -76,6 +76,12 @@ Below you can see the final result. The weather forecast of the city Hamar the n
 <img src= "/assets/images/WeatherForecast/FINAL.PNG" width="1356" height="684"/>
 
 
+You could alternatively change the desired language output if you like. This could be done by changing the country code  in the ````Accept-Language```` value of the ````$Headers```` variable.
+
+
+See all available country codes [here](http://wttr.in/:translation).
+
+
 
 
 
