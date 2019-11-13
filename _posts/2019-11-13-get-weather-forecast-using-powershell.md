@@ -70,6 +70,7 @@ Now you have the function avaiable in your console, and ready to use.
 Select your desired location using the ````Location```` parameter and get ready to be exited!
 
 Below you can see the final result. The weather forecast of the city Hamar the next couple of days :blush:
+
 Note the example output is written in Norwegian.
 
 <img src= "/assets/images/WeatherForecast/FINAL.PNG" width="1356" height="684"/>
