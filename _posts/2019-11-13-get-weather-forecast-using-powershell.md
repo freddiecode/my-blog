@@ -60,7 +60,7 @@ Write-Host "Could not find location. Please try another location" -ForegroundCol
 To use it, you could do it so easy as copying the text above, and saving it as a .PS1-file by using PowerShell ISE or Visual Studio Code (or another editor of your choice).
 Then, navigate to the saved location of your PS1-file and *dotsource* it using this technique:
 
-![DotSourcing](/assets/images/WeatherForecast/DOT.PNG){:height="92px" width="1362px"}
+![DotSourcing](/assets/images/WeatherForecast/DOT.PNG){:height="92px"width="1362px"}
 
 
 Now you have the function avaiable in your console, and ready to use.
