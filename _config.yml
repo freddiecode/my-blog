@@ -67,7 +67,7 @@ author:
   bio    : "Hi, I'm Freddie. I like PowerShell."
   location : "Hamar, Norway"
   links:
-    - label: "Hamar, Norway"
+    - label: "Near Hamar, Norway"
       icon: "fas fa-map-marker-alt"
     - label: " Mail"
       icon: "far fa-envelope"
