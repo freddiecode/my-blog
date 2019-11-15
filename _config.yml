@@ -65,7 +65,7 @@ author:
   name   : "Freddie Christiansen"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Hi, I'm Freddie. I like PowerShell."
-  location : "Hamar, Norway"
+  location : "Near Hamar, Norway"
   links:
     - label: "Near Hamar, Norway"
       icon: "fas fa-map-marker-alt"
