@@ -156,7 +156,7 @@ The result is written to the console:
 
 The example is using the ````-ADOrgUnit```` parameter, but any available parameter can be used.
 
-####ProTip!
+#### ProTip!
 
 Instead of copying the DN from the console, you can edit the if statements so it pipes the output into clip.exe.
 
