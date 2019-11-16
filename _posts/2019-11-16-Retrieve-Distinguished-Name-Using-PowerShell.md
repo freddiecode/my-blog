@@ -156,20 +156,20 @@ The result is written to the console:
 
 The example is using the ````-ADOrgUnit```` parameter, but any available parameter can be used.
 
-#### ProTip!
+### ProTip!
 
 Instead of copying the DN from the console, you can edit the if statements so it pipes the output into clip.exe.
+
+*Example:*
+````powershell
+if ($ADComputer -ne $null) {(Get-ADComputer -Identity "$ADComputer").DistinguishedName | clip}
+````
 
 What is clip.exe?
 
 >Redirects command output from the command line to the Windows clipboard. You can then paste this text output into other programs.
 
 *Taken from [here](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/clip).*
-
-*Example:*
-````powershell
-if ($ADComputer -ne $null) {(Get-ADComputer -Identity "$ADComputer").DistinguishedName | clip}
-````
 
 Please note that even nothing is written to the console, the function is working as intended. If you, for example, open Notepad and press Ctrl + V (or right-click and select *Paste*), the DN of the object comes to show. No more waisting time by highlighting the text and selecting *copy* :blush:
 
