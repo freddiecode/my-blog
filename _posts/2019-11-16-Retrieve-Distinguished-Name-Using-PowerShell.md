@@ -158,6 +158,7 @@ You start off by creating a simple array containing your items, and then, pipe t
 ![ARRAY](/assets/images/DNs/ARRAY.PNG)
 
 The result is written to the console:
+
 ![ARRAY2](/assets/images/DNs/ARRAY2.PNG)
 
 The example is using the ````-ADOrgUnit```` parameter, but any available parameter can be used.
