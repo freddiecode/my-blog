@@ -143,6 +143,13 @@ Get-ADDistinguishedName -ADOrg <ADGroupName>
 ````
 ![ADOU](/assets/images/DNs/ADOUs.PNG)
 
+**Multipe items? No problem!**
+You start off by creating a simple array containing your items:
+![ARRAY](/assets/images/DNs/ARRAY.PNG)
+
+
+
+
 
 
 
