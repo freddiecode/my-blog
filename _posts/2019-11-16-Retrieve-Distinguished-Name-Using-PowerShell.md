@@ -168,6 +168,7 @@ Instead of copying the DN from the console, you can edit the if statements so it
 ````powershell
 if ($ADComputer -ne $null) {(Get-ADComputer -Identity "$ADComputer").DistinguishedName | clip}
 ````
+Note the piping to ````clip```` at the end.
 
 What is clip.exe?
 
