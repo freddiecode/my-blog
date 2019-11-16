@@ -111,11 +111,12 @@ See the complete path below:
 
 ![ModulePath](/assets/images/DNs/MODULEPATH.PNG)
 
-You have now successfully installed the module and have it available in your PowerShell console:
-![ModulePath](/assets/images/DNs/CMDLET.PNG)
+You have now successfully installed the function and have it available in your PowerShell console:
+![CMDLET](/assets/images/DNs/CMDLET.PNG)
+
 
 The following parameters is available for use:
-![ModulePath](/assets/images/DNs/PARAMS.PNG)
+![PARAMS](/assets/images/DNs/PARAMS.PNG)
 
 
 
@@ -138,7 +139,9 @@ What is clip.exe?
 if ($ADComputer -ne $null) {(Get-ADComputer -Identity "$ADComputer").DistinguishedName | clip}
 ````
 
-INSERT CLIP-IMAGE!!!!
+Please note that even nothing is written to the console, the function is working as intended. If you, for example, open Notepad and press Ctrl + V (or right-click and select *Paste*), the corresponding DN comes to show. No more waiting time by highlighting the text and selecting *copy* :blush:
+
+![CLIP](/assets/images/DNs/CLIP.PNG)
 
 
 
