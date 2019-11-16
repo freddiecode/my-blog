@@ -124,7 +124,7 @@ You have now successfully installed the function and have it available in your P
 
 **Get the DN of a ADUser:**
 ````powershell
-Get-ADDistinguishedName -ADUSer <UserName>
+Get-ADDistinguishedName -ADUser <UserName>
 ````
 ![ADUSER](/assets/images/DNs/ADUSER.PNG)
 
@@ -156,7 +156,7 @@ The result is written to the console:
 
 The example is using the ````-ADOrgUnit```` parameter, but any available parameter can be used.
 
-**PowerTip!** 
+####ProTip!
 
 Instead of copying the DN from the console, you can edit the if statements so it pipes the output into clip.exe.
 
