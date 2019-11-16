@@ -68,6 +68,7 @@ So, what do you think I did? - Created a PowerShell function of course! :blush:
 
         )
 
+#Will import the ActiveDirectoy module if missing in current session.
 
 If ( ! (Get-module Activedirectory )) {
 
