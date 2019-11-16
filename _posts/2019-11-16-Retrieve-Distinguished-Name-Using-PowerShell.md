@@ -29,7 +29,7 @@ I caught myself going back and forth in Visual Studio and my Active Directory La
 
 So, what do you think I did? - Created a PowerShell function of course! :blush:
 
-**Get-ADDistinguishedName**
+**````Get-ADDistinguishedName````**
 
 
 ````powershell
