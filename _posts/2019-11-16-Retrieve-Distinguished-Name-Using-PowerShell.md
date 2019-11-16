@@ -142,7 +142,7 @@ Get-ADDistinguishedName -ADGroup <ADGroupName>
 
 **Get the DN of a AD Organization Unit:**
 ````powershell
-Get-ADDistinguishedName -ADOrg <ADGroupName>
+Get-ADDistinguishedName -ADOrg <ADOrganizationUnitName>
 ````
 ![ADOU](/assets/images/DNs/ADOUs.PNG)
 
