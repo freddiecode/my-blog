@@ -1,5 +1,5 @@
 ---
-title:  "Retrieve-Distinguished-Name-Using-PowerShell"
+title:  "Retrieve Distinguished Name using PowerShell"
 date:   2019-11-16 14:00:00
 categories: 
 - Blog
