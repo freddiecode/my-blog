@@ -111,6 +111,14 @@ See the complete path below:
 
 ![ModulePath](/assets/images/DNs/MODULEPATH.PNG)
 
+You have now successfully installed the module and have it available in your PowerShell console:
+![ModulePath](/assets/images/DNs/CMDLET.PNG)
+
+The following parameters is available for use:
+![ModulePath](/assets/images/DNs/PARAMS.PNG)
+
+
+
 
 I also recommend reading the following article on how to install [PowerShell modules correctly](https://docs.microsoft.com/en-us/powershell/scripting/developer/module/installing-a-powershell-module?view=powershell-6).
 
