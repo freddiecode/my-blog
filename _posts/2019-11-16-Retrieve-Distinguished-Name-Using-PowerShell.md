@@ -107,11 +107,14 @@ Paste the code and save it as a .psm1-file named *Get-ADDistinguishedName*.
 Create a new folder named *Get-ADDistinguishedName* (matching your .psm1-file) and then, move your
 *Get-ADDistinguishedName* .psm1-file into the **folder** with the same name.
 
-I also recommend reading the following article on how to install [PowerShell modules correctly](https://docs.microsoft.com/en-us/powershell/scripting/developer/module/installing-a-powershell-module?view=powershell-6).
+Then, move the folder containing your .psm1-file to your desired ````PSModulePath````.
 
-See the complete path below: 
+See my selected path below: 
 
 ![ModulePath](/assets/images/DNs/MODULEPATH.PNG)
+
+I also recommend reading the following article on how to install [PowerShell modules correctly](https://docs.microsoft.com/en-us/powershell/scripting/developer/module/installing-a-powershell-module?view=powershell-6).
+
 
 You have now successfully installed the function and have it available in your PowerShell console:
 ![CMDLET](/assets/images/DNs/CMDLET.PNG)
