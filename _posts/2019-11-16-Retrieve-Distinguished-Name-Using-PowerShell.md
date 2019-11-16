@@ -147,6 +147,7 @@ Get-ADDistinguishedName -ADOrg <ADGroupName>
 ![ADOU](/assets/images/DNs/ADOUs.PNG)
 
 **Checking multiple items at once? No problem!**
+
 You start off by creating a simple array containing your items, and then, pipe the array into a ForEach-Object loop like shown below:
 ![ARRAY](/assets/images/DNs/ARRAY.PNG)
 
