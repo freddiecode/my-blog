@@ -143,19 +143,12 @@ Get-ADDistinguishedName -ADOrg <ADGroupName>
 ````
 ![ADOU](/assets/images/DNs/ADOUs.PNG)
 
-**Multipe items? No problem!**
-You start off by creating a simple array containing your items:
+**Checking multiple items at once? No problem!**
+You start off by creating a simple array containing your items, and then, pipe the array into a ForEach-Object loop like shown below:
 ![ARRAY](/assets/images/DNs/ARRAY.PNG)
 
-
-
-
-
-
-
-
-
-
+The result is written to the console:
+![ARRAY2](/assets/images/DNs/ARRAY2.PNG)
 
 **PowerTip!** 
 
@@ -175,22 +168,6 @@ if ($ADComputer -ne $null) {(Get-ADComputer -Identity "$ADComputer").Distinguish
 Please note that even nothing is written to the console, the function is working as intended. If you, for example, open Notepad and press Ctrl + V (or right-click and select *Paste*), the corresponding DN comes to show. No more waiting time by highlighting the text and selecting *copy* :blush:
 
 ![CLIP](/assets/images/DNs/CLIP.PNG)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
