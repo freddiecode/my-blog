@@ -171,7 +171,7 @@ What is clip.exe?
 if ($ADComputer -ne $null) {(Get-ADComputer -Identity "$ADComputer").DistinguishedName | clip}
 ````
 
-Please note that even nothing is written to the console, the function is working as intended. If you, for example, open Notepad and press Ctrl + V (or right-click and select *Paste*), the corresponding DN comes to show. No more waiting time by highlighting the text and selecting *copy* :blush:
+Please note that even nothing is written to the console, the function is working as intended. If you, for example, open Notepad and press Ctrl + V (or right-click and select *Paste*), the DN of the object comes to show. No more waisting time by highlighting the text and selecting *copy* :blush:
 
 ![CLIP](/assets/images/DNs/CLIP.PNG)
 
