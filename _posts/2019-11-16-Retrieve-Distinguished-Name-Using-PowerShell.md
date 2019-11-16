@@ -107,6 +107,8 @@ Paste the code and save it as a .psm1-file named *Get-ADDistinguishedName*.
 Create a new folder named *Get-ADDistinguishedName* (matching your .psm1-file) and then, move your
 *Get-ADDistinguishedName* .psm1-file into the **folder** with the same name.
 
+I also recommend reading the following article on how to install [PowerShell modules correctly](https://docs.microsoft.com/en-us/powershell/scripting/developer/module/installing-a-powershell-module?view=powershell-6).
+
 See the complete path below: 
 
 ![ModulePath](/assets/images/DNs/MODULEPATH.PNG)
@@ -145,7 +147,7 @@ Get-ADDistinguishedName -ADOrg <ADGroupName>
 
 
 
-I also recommend reading the following article on how to install [PowerShell modules correctly](https://docs.microsoft.com/en-us/powershell/scripting/developer/module/installing-a-powershell-module?view=powershell-6).
+
 
 
 **PowerTip!** 
