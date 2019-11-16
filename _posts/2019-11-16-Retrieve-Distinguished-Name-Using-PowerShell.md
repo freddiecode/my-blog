@@ -117,6 +117,31 @@ You have now successfully installed the function and have it available in your P
 The following parameters is available for use:
 ![PARAMS](/assets/images/DNs/PARAMS.PNG)
 
+**Get the DN of a ADUser:**
+````powershell
+Get-ADDistinguishedName -ADUSer <UserName>
+````
+![ADUSER](/assets/images/DNs/ADUSER.PNG)
+
+**Get the DN of a ADComputer:**
+````powershell
+Get-ADDistinguishedName -ADComputer <ComputerName>
+````
+![ADCOMP](/assets/images/DNs/ADCOMP.PNG)
+
+**Get the DN of a ADGroup:**
+````powershell
+Get-ADDistinguishedName -ADGroup <ADGroupName>
+````
+![ADGROUP](/assets/images/DNs/ADGROUP.PNG)
+
+**Get the DN of a AD Organization Unit:**
+````powershell
+Get-ADDistinguishedName -ADOrg <ADGroupName>
+````
+![ADOU](/assets/images/DNs/ADOUs.PNG)
+
+
 
 
 
