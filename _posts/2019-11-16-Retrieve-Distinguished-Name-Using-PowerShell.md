@@ -151,6 +151,7 @@ Get-ADDistinguishedName -ADOrg <ADOrganizationUnitName>
 **Checking multiple items at once? No problem!**
 
 You start off by creating a simple array containing your items, and then, pipe the array into a ForEach-Object loop like shown below:
+
 ![ARRAY](/assets/images/DNs/ARRAY.PNG)
 
 The result is written to the console:
