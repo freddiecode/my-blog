@@ -1,12 +1,13 @@
 ---
 title:  "Retrieve Distinguished Name using PowerShell"
-date:   2019-11-16 14:00:00
+date:   2019-11-16 15:40:00
 categories: 
 - Blog
 tags:
   - PowerShell
   - Active Directory
   - PowerShell function
+  - Get-ADDistinguishedName
   - DistinguishedName
 ---
 
