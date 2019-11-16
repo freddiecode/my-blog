@@ -25,7 +25,7 @@ Below you can see what the Microsoft Docs describes it as:
 
 When I have time to sit down and really focus on learning new things, I dont wanna spend too much time collecting the input data I need to get the code working as the way I want. 
 
-I caught myself going back and forth in Visual Studio and my Active Directory Lab Domain Controller retrieving the DNs needed to complete my C#-code. **What`s a waste of time!**
+I caught myself going back and forth in Visual Studio and my Active Directory Lab Domain Controller fiddling around in AD U&C to retrieve the DNs needed to complete my C#-code. **What`s a waste of time!**
 
 So, what do you think I did? - Created a PowerShell function of course! :blush:
 
