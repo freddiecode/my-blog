@@ -59,19 +59,19 @@ WPF uses XAML - *E**X**tensible **A**pplication **M**arkup **L**anguage* to defi
    Complete with a login window and SQL-database connection for storing and reading data. Features include registration of a ````new device````, ````search function````, and ````export into a report-capable CSV-file (Excel?)````. Please note that the text on the following screenshot has been translated into Norwegian.
 
 
-   ![GETINV](/assets/images/WPF/GETINV.PNG)
+   ![GETINV](/assets/images/WPF/GETINV.png)
 
 * Login window
 
-![GETINV2](/assets/images/WPF/GETINV2.PNG)
+![GETINV2](/assets/images/WPF/GETINV2.png)
 
  * Main window
 
-![GETINV4](/assets/images/WPF/GETINV4.PNG)
+![GETINV4](/assets/images/WPF/GETINV4.png)
 
 * Register new device
 
-![GETINV3](/assets/images/WPF/GETINV3.PNG)
+![GETINV3](/assets/images/WPF/GETINV3.png)
 
 * Export and save list to CSV-file  
 
