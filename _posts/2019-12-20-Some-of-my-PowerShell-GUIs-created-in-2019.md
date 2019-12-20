@@ -52,7 +52,7 @@ WPF uses XAML - *E**X**tensible **A**pplication **M**arkup **L**anguage* to defi
 4. **Get-ADComputerInformation**
    Get a simple overview of your AD-computers. Lists ````ComputerName````, ````OperatingSystem````, ````OSVersion````, ````OU-path````, ````IPv4Address````, ````LastLogonDate```` and ````Enabled-state```` in a easy readable gridview.
 
-   ![ADCOMP](/assets/images/WPF/ADCOMP.PNG)
+   ![ADCOMP](/assets/images/WPF/ADCOMP.png)
 
 5. **Get-Inventory** 
    This was actual my first (*..and eventually become my biggest PowerShell + WPF project in 2019*). Current version of the script is over **550** lines long.
@@ -61,19 +61,19 @@ WPF uses XAML - *E**X**tensible **A**pplication **M**arkup **L**anguage* to defi
 
    ![GETINV](/assets/images/WPF/GETINV.png)
 
-* Login window
+* **Login window**
 
 ![GETINV2](/assets/images/WPF/GETINV2.png)
 
- * Main window
+ * **Main window**
 
 ![GETINV4](/assets/images/WPF/GETINV4.png)
 
-* Register new device
+* **Register new device**
 
 ![GETINV3](/assets/images/WPF/GETINV3.png)
 
-* Export and save list to CSV-file  
+* **Export and save list to CSV-file**
 
 
 
