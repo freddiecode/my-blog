@@ -19,14 +19,14 @@ This could also be very helpful if you have some colleagues who has less knowled
 
 **Below is a short description of what WPF is:** 
 
->Windows Presentation Foundation (WPF) is a graphical subsystem (similar to WinForms) originally developed by Microsoft for rendering user interfaces in Windows-based applications. WPF, previously known as "Avalon", was initially released as part of . NET Framework 3.0 in 2006.
+>*Windows Presentation Foundation (WPF) is a graphical subsystem (similar to WinForms) originally developed by Microsoft for rendering user interfaces in Windows-based applications. WPF, previously known as "Avalon", was initially released as part of . NET Framework 3.0 in 2006.*
 
 *You can read more about it [here](https://en.wikipedia.org/wiki/Windows_Presentation_Foundation).*
 
 WPF uses XAML - *E**X**tensible **A**pplication **M**arkup **L**anguage* to define the visual elements. If you have some experience working with XML-files, you'll quickly see the similarities.
 
 **What is XAML?**
->XAML is a declarative markup language. As applied to the .NET Core programming model, XAML simplifies creating a UI for a .NET Core app. You can create visible UI elements in the declarative XAML markup, and then separate the UI definition from the run-time logic by using code-behind files that are joined to the markup through partial class definitions. XAML directly represents the instantiation of objects in a specific set of backing types defined in assemblies. This is unlike most other markup languages, which are typically an interpreted language without such a direct tie to a backing type system. XAML enables a workflow where separate parties can work on the UI and the logic of an app, using potentially different tools.
+>*XAML is a declarative markup language. As applied to the .NET Core programming model, XAML simplifies creating a UI for a .NET Core app. You can create visible UI elements in the declarative XAML markup, and then separate the UI definition from the run-time logic by using code-behind files that are joined to the markup through partial class definitions. XAML directly represents the instantiation of objects in a specific set of backing types defined in assemblies. This is unlike most other markup languages, which are typically an interpreted language without such a direct tie to a backing type system. XAML enables a workflow where separate parties can work on the UI and the logic of an app, using potentially different tools.*
 
 
 ### Some of my projects in 2019:
