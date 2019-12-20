@@ -53,7 +53,7 @@ Enter *parent* username and view search results in the texbox below. Then enter 
 
 4. **Get-ADComputerInformation**
 
-   Get a simple overview of your AD-computers. Lists ````ComputerName````, ````OperatingSystem````, ````OSVersion````, ````OU-path````, ````IPv4Address````, ````LastLogonDate```` and ````Enabled-state```` in a easy readable gridview.
+   Get a simple overview of your AD-computers. Lists ````ComputerName````, ````OperatingSystem````, ````OSVersion````, ````OU-path````, ````IPv4Address````, ````LastLogonDate```` and ````Enabled-state```` in a easy readable gridview. Tabs for each selected OperatingSystem - in my case Windows 10, Windows 7 and Windows Servers.
 
    ![ADCOMP](/assets/images/WPF/ADCOMP.png)
 
