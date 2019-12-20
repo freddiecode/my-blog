@@ -30,7 +30,7 @@ WPF uses XAML - *E**X**tensible **A**pplication **M**arkup **L**anguage* to defi
 >XAML is a declarative markup language. As applied to the .NET Core programming model, XAML simplifies creating a UI for a .NET Core app. You can create visible UI elements in the declarative XAML markup, and then separate the UI definition from the run-time logic by using code-behind files that are joined to the markup through partial class definitions. XAML directly represents the instantiation of objects in a specific set of backing types defined in assemblies. This is unlike most other markup languages, which are typically an interpreted language without such a direct tie to a backing type system. XAML enables a workflow where separate parties can work on the UI and the logic of an app, using potentially different tools.
 
 
-### Some of my projects in 2019:**
+### Some of my projects in 2019:
 
 
 1. **Send-SMSMessage**
