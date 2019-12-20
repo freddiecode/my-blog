@@ -41,13 +41,13 @@ A simple SMS GUI for sending text messages. Integrated with the [Twilio SMS API]
 2. **Copy-ADMemberShip**
 
 As the title hopefylly explains, a simple view for copying Active Directory membership from one user to another user.
-Enter *parent* username and view search results in the texbox below. Then enter username who will get the same Active Directoy groups membership. Complete with lookup in Active Directory and error handling. Please note that the text on the following screenshot has been translated into Norwegian.
+Enter *parent* username and view search results in the texbox below. Then enter username who will get the same Active Directoy group membership. Complete with lookup in Active Directory and error handling. Please note that the text on the following screenshot has been translated into Norwegian.
 
    ![COPYAD](/assets/images/WPF/COPYAD.PNG)
 
 3. **ADCSV**
 
-   A helpful GUI for easy creation of multiple AD-users. Just import a CSV-file containing your new users (firstname, lastname and disired username is mandatory). Select an OU-path, an expiration date, a one-time password and just like    that, you'll created a whole lot of new users in seconds. Please note that the text on the following screenshot has been translated into Norwegian.
+   A helpful GUI for easy creation of multiple AD-users. Just import a CSV-file containing your new users (firstname, lastname and disired username is mandatory). Select an OU-path, an expiration date, a one-time password and just like    that, you'll created a whole lot of new users in seconds. Complete with logging and error handling, for example if a disired username is already in use. Please note that the text on the following screenshot has been translated into Norwegian.
 
    ![ADCSV](/assets/images/WPF/ADCSV.PNG)
 
