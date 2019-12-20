@@ -33,14 +33,13 @@ WPF uses XAML - *E**X**tensible **A**pplication **M**arkup **L**anguage* to defi
 
 
 1. **Send-SMSMessage**
-   A simple SMS GUI for sending text messages. Integrated with the [Twilio SMS API](https://www.twilio.com/sms)
+A simple SMS GUI for sending text messages. Integrated with the [Twilio SMS API](https://www.twilio.com/sms)
 
    ![SMS](/assets/images/WPF/SMS.PNG)
 
 2. **Copy-ADMemberShip**
-   As the title hopefylly explains, a simple view for copying Active Directory membership from one user to another user.
-   Enter *parent* username and view search results in the texbox below. Then enter username who will get the same Active Directoy groups membership. 
-   Complete with lookup in Active Directory and error handling. Please note that the text on the following screenshot has been translated into Norwegian.
+As the title hopefylly explains, a simple view for copying Active Directory membership from one user to another user.
+Enter *parent* username and view search results in the texbox below. Then enter username who will get the same Active Directoy groups membership. Complete with lookup in Active Directory and error handling. Please note that the text on the following screenshot has been translated into Norwegian.
 
    ![COPYAD](/assets/images/WPF/COPYAD.PNG)
 
