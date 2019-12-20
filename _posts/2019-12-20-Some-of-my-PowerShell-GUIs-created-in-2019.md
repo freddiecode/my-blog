@@ -58,6 +58,7 @@ Enter *parent* username and view search results in the texbox below. Then enter 
    Complete with a login window and SQL-database connection for storing and reading data. Features include registration of a ````new device````, ````search function````, and ````export into a report-capable CSV-file (Excel?)````. Please note that the text on the following screenshot has been translated into Norwegian.
 
 * **Login window**
+
    ![GETINV](/assets/images/WPF/GETINV.PNG)
 
 * **Main window**
@@ -71,6 +72,7 @@ Enter *parent* username and view search results in the texbox below. Then enter 
 * **Export and save list to CSV-file**
 
 ![GETINV3](/assets/images/WPF/GETINV3.png)
+
 
 So, with a little peak of my previous projects, I'll hope you have been inspired of what combining PowerShell and WPF together can do.  
 
