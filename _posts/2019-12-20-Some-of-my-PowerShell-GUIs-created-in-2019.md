@@ -1,4 +1,3 @@
-
 ---
 title:  "Some of my PowerShell GUIs created in 2019"
 date:   2019-11-20 20:00:00
