@@ -33,27 +33,32 @@ WPF uses XAML - *E**X**tensible **A**pplication **M**arkup **L**anguage* to defi
 
 
 1. **Send-SMSMessage**
+
 A simple SMS GUI for sending text messages. Integrated with the [Twilio SMS API](https://www.twilio.com/sms)
 
    ![SMS](/assets/images/WPF/SMS.PNG)
 
 2. **Copy-ADMemberShip**
+
 As the title hopefylly explains, a simple view for copying Active Directory membership from one user to another user.
 Enter *parent* username and view search results in the texbox below. Then enter username who will get the same Active Directoy groups membership. Complete with lookup in Active Directory and error handling. Please note that the text on the following screenshot has been translated into Norwegian.
 
    ![COPYAD](/assets/images/WPF/COPYAD.PNG)
 
 3. **ADCSV**
+
    A helpful GUI for easy creation of multiple AD-users. Just import a CSV-file containing your new users (firstname, lastname and disired username is mandatory). Select an OU-path, an expiration date, a one-time password and just like    that, you'll created a whole lot of new users in seconds. Please note that the text on the following screenshot has been translated into Norwegian.
 
    ![ADCSV](/assets/images/WPF/ADCSV.PNG)
 
 4. **Get-ADComputerInformation**
+
    Get a simple overview of your AD-computers. Lists ````ComputerName````, ````OperatingSystem````, ````OSVersion````, ````OU-path````, ````IPv4Address````, ````LastLogonDate```` and ````Enabled-state```` in a easy readable gridview.
 
    ![ADCOMP](/assets/images/WPF/ADCOMP.png)
 
-5. **Get-Inventory** 
+5. **Get-Inventory**
+ 
    This was actual my first (*..and eventually become my biggest PowerShell + WPF project in 2019*). Current version of the script is over **550** lines long.
    Complete with a login window and SQL-database connection for storing and reading data. Features include registration of a ````new device````, ````search function````, and ````export into a report-capable CSV-file (Excel?)````. Please note that the text on the following screenshot has been translated into Norwegian.
 
