@@ -34,7 +34,7 @@ WPF uses XAML - *E**X**tensible **A**pplication **M**arkup **L**anguage* to defi
 
 1. **Send-SMSMessage**
 
-A simple SMS GUI for sending text messages. Integrated with the [Twilio SMS API](https://www.twilio.com/sms)
+A simple SMS GUI for sending text messages. Integrated with the [Twilio SMS API](https://www.twilio.com/sms).
 
    ![SMS](/assets/images/WPF/SMS.PNG)
 
