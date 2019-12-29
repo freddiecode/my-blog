@@ -39,11 +39,11 @@ He is a member of the Norwegian PowerShell User Group and spends a lot of time a
 
 **Currently looking into:**
 
-
+* Becoming a PowerShell ninja :smile:
 * Microsoft Graph
-* HTTP-requests, JSON
-* C# and ASP .NET Core
-*  Xamarin Development
+* C# and Xamarin Development
+* Web Services
+
 
 
 
