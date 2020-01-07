@@ -65,7 +65,7 @@ You are ready to go!
 ### A short description of each function:
 
 
-1. **Get-MELCloudContextKey**
+**Get-MELCloudContextKey**
 
 This first function is the place to begin. In order to communicate with the MELCloud API and your device, you must authenticate yourself. To successfully retrieve an API-key (*Mitsubishi uses the term 'ContextKey', so I decided to use that name*), you must provide a valid ````username```` and ````password````.
 
@@ -95,7 +95,7 @@ $Key = <YourAPIKey>
 
 
 	
-2. **Get-MELCloudDeviceInfo**
+**Get-MELCloudDeviceInfo**
 
 Will list all kind of technical information about your MELCloudDevice(s).
 
@@ -132,7 +132,7 @@ Get-MELCloudDeviceInfo -ContextKey $Key
 
 
 
-3. **Get-MELCloudDevice**
+**Get-MELCloudDevice**
 
 *As I only own one MELCloud device, I haven't had the opportunity to fully test and confirm that this function works 100% correct.*
 
@@ -158,7 +158,7 @@ I also here recommend that you put your ````DeviceID```` into a variable for eas
 $ID = 123456
 ````
 
-4. **Start-MELCloudDevice**
+**Start-MELCloudDevice**
 
 Use this function to start your selected device.
    
@@ -183,7 +183,7 @@ If you wish to change the temperature or the fan speed, this can be completed by
 
 
 
-5. **Set-MELCloudDevice**
+**Set-MELCloudDevice**
 
 This is probably the most useful function in this module. This badboy allows you to set different settings on your device. You can adjust the temperature, set desired fan speed, change mode among some other things.
 
@@ -211,7 +211,7 @@ Above you see the output written to the console after you successfully have set 
 FYI: ````OperatingMode```` equals 1 = Heating | ````OperatingMode```` equals 3 = Cooling.
 
 
-6. **Stop-MELCloudDevice**
+**Stop-MELCloudDevice**
 
 Allows you to stop/shutdown your device. 
 
