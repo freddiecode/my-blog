@@ -11,7 +11,7 @@ tags:
 
 ### Control your Mitsubishi heat pump using PowerShell
 
-This very first blog post in 2020, I will dedicate to presenting my very first publicly available PowerShell module! :blush:
+In this very first blog post in 2020 I will dedicate to presenting my very first publicly available PowerShell module! :blush:
 
 I present to you (*..imagine a drum roll*): **Control-MELCloudDevice**.
 
