@@ -33,7 +33,7 @@ This got the thinking, is it possible to do the same thing using PowerShell? Who
 *If you haven't already connected your device to your Wi-Fi network and signed up to use the MELCloud service, now would be a good time to do this. I will not cover how you do this in this post, so I recommend reading the instructions that came with your device.*
 
 ### Get the module:
-You'll find the complete module by visiting my GitHub repo [here](https://github.com/freddiemc88/Control-MELCloudDevice)  
+You'll find the complete module by visiting my GitHub repo [here](https://github.com/freddiemc88/Control-MELCloudDevice).  
 
 
 ### Import the module:
