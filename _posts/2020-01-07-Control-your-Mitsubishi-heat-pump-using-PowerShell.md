@@ -7,11 +7,12 @@ tags:
   - PowerShell
   - MELCloud
   - Mitsubishi Electric
+  - Control-MELCloudDevice
 ---
 
 ### Control your Mitsubishi heat pump using PowerShell
 
-In this very first blog post in 2020 I will dedicate to presenting my very first publicly available PowerShell module! :blush:
+In this first blog post in 2020 I will dedicate to presenting my very first publicly available PowerShell module! :blush:
 
 I present to you (*..imagine a drum roll*): **Control-MELCloudDevice**.
 
