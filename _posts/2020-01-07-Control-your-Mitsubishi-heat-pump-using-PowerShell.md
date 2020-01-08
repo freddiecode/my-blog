@@ -214,7 +214,7 @@ FYI: ````OperatingMode```` equals 1 = Heating | ````OperatingMode```` equals 3 =
 
 **Stop-MELCloudDevice**
 
-Allows you to stop/shutdown your device. 
+Allows you to shutdown your device. 
 
 *Syntax example:*
 ````powershell
