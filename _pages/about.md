@@ -41,7 +41,7 @@ He is a member of the Norwegian PowerShell User Group and spends a lot of time a
 
 * Becoming a PowerShell ninja :smile:
 * Microsoft Graph
-* C# and Xamarin Development
+* C# and Xamarin Development (A registered Apple Developer)
 * Web Services
 
 
