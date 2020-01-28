@@ -22,9 +22,76 @@ Please read the official Microsoft Docs found [here](https://docs.microsoft.com/
 >:information_source: **Hey you!** As described in the documentation, there are two different URLs used against App Center. One to use if the app belongs to a username, and one if the app belongs to an organization. 
 This function is targeted against the **username** version.
 
-
+*Send-PushNotification*
 ````powershell
-Get-Service -Name Spooler
+<#
+.Synopsis
+   Use this custom function to send Push Notifications with the help of the Microsoft Visual Studio App Center REST API.
+.EXAMPLE
+   Send-PushNotification -Title "This is the title> -Body "Enter some text here"
+   #>
+function Send-PushNotification
+{
+    [CmdletBinding()]
+    [Alias()]
+    [OutputType([int])]
+    Param
+    (
+        [Parameter(Mandatory = $True,
+        ValueFromPipeline = $False,
+        Position=0,
+        HelpMessage = "Enter desired title")]
+        [string[]]$Title,
+
+        [Parameter(Mandatory = $True,
+        ValueFromPipeline = $False,
+        Position=1,
+        HelpMessage = "Enter body text")]
+        [string[]]$Body
+
+
+    )
+
+    Begin
+    {}
+
+    Process
+    {
+
+       try {
+
+        $headers = New-Object "System.Collections.Generic.Dictionary[[String],[String]]"
+        $headers.Add("Content-Type", "application/json")
+        $headers.Add("X-API-Token", "ENTER-YOUR-API-TOKEN-HERE")
+
+$json = @"
+            {
+            "notification_content": {
+            "name": "PushFromPowerShell",
+            "title": "$Title",
+            "body": "$Body",
+            "custom_data": {"sound": "default"}
+            },
+            "notification_target": null
+            }
+"@
+
+$response = Invoke-RestMethod 'https://appcenter.ms/api/v0.1/apps/<Username>/<AppName>/push/notifications' -Method 'POST' -Headers $headers -Body ([System.Text.Encoding]::UTF8.GetBytes($json))
+
+
+            }
+
+
+       catch {
+
+        Write-Host $_ -ForegroundColor Red }
+
+    }
+
+    End
+    {}
+
+}
 ````
 
 *Please note that this function is made for sending Push Notifications to [all](https://docs.microsoft.com/en-us/appcenter/push/rest-api#send-a-notification-to-all-registered-devices-broadcast) registered devices (broadcast).
