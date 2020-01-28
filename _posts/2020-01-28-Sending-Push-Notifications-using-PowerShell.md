@@ -1,5 +1,5 @@
 ---
-title:  "Sending Push Notifications to mobile devices from App Center using PowerShell"
+title:  "Sending Push Notifications from App Center using PowerShell"
 date:   2020-01-28 18:48:00
 categories: 
 - Blog
@@ -10,7 +10,7 @@ tags:
   - Send-PushNotification
 ---
 
-### Sending Push Notifications to mobile devices from Microsoft App Center using PowerShell
+### Sending Push Notifications from Microsoft App Center using PowerShell
 
 So I made an app...
 
