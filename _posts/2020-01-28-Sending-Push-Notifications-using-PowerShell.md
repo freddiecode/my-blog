@@ -22,7 +22,7 @@ Please read the official Microsoft Docs found [here](https://docs.microsoft.com/
 >:information_source: **Hey you!** As described in the documentation, there are two different URLs used against App Center. One to use if the app belongs to a username, and one if the app belongs to an organization. 
 This function is targeted against the **username** version.
 
-*Send-PushNotification*
+### Send-PushNotification
 ````powershell
 <#
 .Synopsis
