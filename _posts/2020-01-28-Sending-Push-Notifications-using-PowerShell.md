@@ -26,6 +26,8 @@ This function is targeted against the **username** version.
 ````Send-PushNotification````
 
 ````powershell
+
+
 <#
 .Synopsis
    Use this custom function to send Push Notifications with the help of the Microsoft Visual Studio App Center REST API.
@@ -94,6 +96,7 @@ $response = Invoke-RestMethod 'https://appcenter.ms/api/v0.1/apps/<Username>/<Ap
     {}
 
 }
+
 
 ````
 
