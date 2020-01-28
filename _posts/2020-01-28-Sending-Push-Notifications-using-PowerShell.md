@@ -10,7 +10,7 @@ tags:
   - Send-PushNotification
 ---
 
-### Sending Push Notifications to mobile devices from App Center using PowerShell
+### Sending Push Notifications to mobile devices from Microsoft App Center using PowerShell
 
 So I made an app...
 
