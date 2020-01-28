@@ -97,7 +97,6 @@ $response = Invoke-RestMethod 'https://appcenter.ms/api/v0.1/apps/<Username>/<Ap
 
 ````
 
-
 *Please note that this function is made for sending Push Notifications to [all](https://docs.microsoft.com/en-us/appcenter/push/rest-api#send-a-notification-to-all-registered-devices-broadcast) registered devices (broadcast).
 If you require a different functionality, you'll have to edit the function to match your needs.*
 
