@@ -23,8 +23,6 @@ Please read the official Microsoft Docs found [here](https://docs.microsoft.com/
 This function is targeted against the **username** version.
 
 
-````Send-PushNotification````
-
 ````powershell
 Get-Service -Name Spooler
 ````
