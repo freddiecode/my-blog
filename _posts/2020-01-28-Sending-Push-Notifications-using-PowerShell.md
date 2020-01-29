@@ -62,7 +62,7 @@ function Send-PushNotification
 
         $headers = New-Object "System.Collections.Generic.Dictionary[[String],[String]]"
         $headers.Add("Content-Type", "application/json")
-        $headers.Add("X-API-Token", "ENTER-YOUR-API-TOKEN-HERE")
+        $headers.Add("X-API-Token", "<ENTER-YOUR-API-TOKEN-HERE>")
 
 $json = @"
             {
