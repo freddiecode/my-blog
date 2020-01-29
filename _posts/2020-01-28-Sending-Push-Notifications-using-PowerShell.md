@@ -100,7 +100,7 @@ If you require a different functionality, you'll have to edit the function to ma
 
 ### Installing the module:
 
-Copy the entire text in the code block above (or grab a copy in my GitHub repo). Open PowerShell ISE, Visual Studio Code or your editor of choice. Paste in the code and save it as a .psm1-file named  *Send-PushNotification*.
+Copy the entire text in the code block above (or grab a copy in my [GitHub repo](https://github.com/freddiemc88/Send-PushNotification)). Open PowerShell ISE, Visual Studio Code or your editor of choice. Paste in the code and save it as a .psm1-file named  *Send-PushNotification*.
 
 Create a new **folder** named *Send-PushNotification* (matching your .psm1-file) and then, move your *Send-PushNotifcation* .psm1-file into the  **folder**  with the same name.
 
