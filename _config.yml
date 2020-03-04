@@ -27,10 +27,10 @@ twitter_username: username
 github_username: username
 minimal_mistakes_skin: dark
 search: false
-disqus:
-    shortname: cloudpilot
-baseurl: "my-blog"
-url : "https://github.com/freddiemc88/my-blog"
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "cloudpilot"
 
 # Build settings
 markdown: kramdown
