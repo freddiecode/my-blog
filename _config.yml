@@ -27,6 +27,10 @@ twitter_username: username
 github_username: username
 minimal_mistakes_skin: dark
 search: false
+disqus:
+    shortname: cloudpilot
+baseurl: "repo_name"
+url : "https://username.github.io/repo_name"
 
 # Build settings
 markdown: kramdown
