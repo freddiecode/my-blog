@@ -19,10 +19,10 @@ analytics:
   google:
     tracking_id: "UA-150962760-1" # Replace this with your ID, or delete
     anonymize_ip: true
-title: CloudPilot.no | Just another PowerShell blog
+title: CloudPilot.no | Just another Cloud and PowerShell blog
 email: freddie@cloudpilot.no
 description: >- # this means to ignore newlines until "baseurl:"
-  CloudPilot.no | Just another PowerShell blog
+  CloudPilot.no | Just another Cloud and PowerShell blog
 twitter_username: username
 github_username: username
 minimal_mistakes_skin: dark
