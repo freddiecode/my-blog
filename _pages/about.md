@@ -3,11 +3,11 @@ permalink: /about/
 title: "About"
 ---
 
-Freddie Christiansen currently works as a Technical Consultant at Elverum municipality.
+Freddie Christiansen currently works as a IT-consultant at Lindbak IT AS.
 
-Products and services he works with include Microsoft infrastructure such as Windows Server, Exchange Server and Office 365.
+Products and services he works with include Microsoft infrastructure such as Microsoft Azure, Microsoft 365 and Windows Server.
 
-He is also experienced with Hyper-V, VMware, Microsoft Azure, IBM Cloud and Cisco Meraki.
+He is also experienced with Hyper-V, VMware, Exchange Server, IBM Cloud and Cisco Meraki.
 
 In his job he meets different objectives and tries to solve them all using PowerShell.
 
