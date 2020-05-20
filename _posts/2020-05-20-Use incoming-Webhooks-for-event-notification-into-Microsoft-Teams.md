@@ -1,5 +1,5 @@
 ---
-title:  "Oh My GUID!"
+title:  "Use incoming Webhooks for event notification into Microsoft Teams"
 date:   2020-05-20 10:00:00
 categories: 
 - Blog
