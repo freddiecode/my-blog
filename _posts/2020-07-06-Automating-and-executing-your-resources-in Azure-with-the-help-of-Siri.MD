@@ -23,7 +23,7 @@ If you have missed it, it can be found [here](https://www.cloudpilot.no/blog/Con
 
 A super cool feature in Azure is ````Azure Automation````. It allows you to automate and orchestrate tasks within Azure and accross external systems.
 
-This got me thinking - could I combine these two elements and get some cool functionality out of it? Maybe also include some voice-controlling from my iPhone? :nerd_face:
+This got me thinking - could I combine these two elements and get some cool functionality out of it? Maybe also include some voice-controlling from my iPhone? :blush:
 
 **Let's get going!**
 
@@ -132,7 +132,7 @@ Now that we have both a working PowerShell script and a webhook ready to be used
 
 Ok, let's look into how you can use Apple's very own Siri to execute and control your script's running in Azure.
 
-First of all, open the *Shurtcuts* app on your phone.
+First of all, open the *Shortcuts* app on your phone.
 
 ![PATH](/assets/images/AZUREAUTO/SIRI01.PNG)
 
@@ -172,4 +172,4 @@ Isn't this the coolest thing? :blush:
 
 Hope someone found this guide helpful.
 
-Freddie.
+Freddie
