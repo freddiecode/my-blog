@@ -19,7 +19,7 @@ The possibilities there are endless and only your own imagination set's the limi
 
 
 A while back, I wrote a blog post describing my first publicly available PowerShell module, allowing you to control your Mitsubishi heat pump with the help of PowerShell.
-If you have missed it, it can be found HERE.
+If you have missed it, it can be found [here](https://www.cloudpilot.no/blog/Control-your-Mitsubishi-heat-pump-using-PowerShell/).
 
 A super cool feature in Azure is ````Azure Automation````. It allows you to automate and orchestrate tasks within Azure and accross external systems.
 
@@ -31,7 +31,7 @@ This got me thinking - could I combine these two elements and get some cool func
 
 The first thing to do when you start using Azure Automation is create an Automation account. Automation accounts are like Azure Storage accounts in that they serve as a container.
 
-The first thing you need is a valid Azure Subscription. If you haven't got this already, sign-up for a free trial. https://azure.microsoft.com/en-gb/offers/ms-azr-0044p/
+The first thing you need is a valid Azure Subscription. If you haven't got this already, sign-up for a free trial here: https://azure.microsoft.com/en-gb/offers/ms-azr-0044p/
 
 After successfully signed into the Azure portal, search for ````Automation```` in the top search bar:
 
