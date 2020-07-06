@@ -35,7 +35,7 @@ The first thing you need is a valid Azure Subscription. If you haven't got this 
 
 After successfully signed into the Azure portal, search for ````Automation```` in the top search bar:
 
-IMAGE HERE!
+![PATH](/assets/images/AZUREAUTO/AUTOMATION.PNG)
 
 Select ````Automation Account```` from the available Services-list.
 
@@ -44,6 +44,8 @@ Select ````Automation Account```` from the available Services-list.
 Next, click the ```Add``` button to create a new Automation Account.
 
 In the next window you'll need to fill in some information.
+
+![PATH](/assets/images/AZUREAUTO/ACCWIZARD.PNG)
 
 Enter a suitable name in the ````Name```` box,
 Select your ````Subscription````,
@@ -144,7 +146,7 @@ Then, select the *Add Action* button on the middle of the screen.
 
 Add a new *URL* action and don't forget to enter your webhook URL that you got when you created your webhook in Azure.
 
-Next, add another action by selecting the *plus* icon and seach for *Get Content of URL* into the top search-bar. Click on the right action to add it into your *Shortcut*.
+Next, add another action by selecting the *plus* icon and search for *Get Content of URL* into the top search-bar. Click on the right action to add it into your *Shortcut*.
 
 Now your *Shortcut* should look something like this:
 
@@ -156,7 +158,7 @@ Select the *Show more* option and change the *Method* from *GET* into *POST*. Co
 
 New done, select *Next* on the top right.
 
-Now it's time to name your new Shurtcut. As you can see from my example below, I'll named my new Shortcut for *Run Azure Script*.
+Now it's time to name your new Shortcut. As you can see from my example below, I'll named my new Shortcut for *Run Azure Script*.
 
 ![PATH](/assets/images/AZUREAUTO/SIRI06.PNG)
 
