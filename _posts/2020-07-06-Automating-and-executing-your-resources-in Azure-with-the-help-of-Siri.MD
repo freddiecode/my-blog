@@ -134,15 +134,15 @@ Ok, let's look into how you can use Apple's very own Siri to execute and control
 
 First of all, open the *Shurtcuts* app on your phone.
 
-IMG- SIRI01
+![PATH](/assets/images/AZUREAUTO/SIRI01.PNG)
 
 Select the *Plus* icon on the top, right side to create a new Shutcut.
 
-IMG - SIRI02
+![PATH](/assets/images/AZUREAUTO/SIRI02.PNG)
 
 Then, select the *Add Action* button on the middle of the screen.
 
-IMG - SIRI03
+![PATH](/assets/images/AZUREAUTO/SIRI03.PNG)
 
 Add a new *URL* action and don't forget to enter your webhook URL that you got when you created your webhook in Azure.
 
@@ -150,17 +150,17 @@ Next, add another action by selecting the *plus* icon and seach for *Get Content
 
 Now your *Shortcut* should look something like this:
 
-IMG - SIRI04
+![PATH](/assets/images/AZUREAUTO/SIRI04.PNG)
 
 Select the *Show more* option and change the *Method* from *GET* into *POST*. Confirm that the *Request Body* is set to *JSON*.
 
-IMG - SIRI05
+![PATH](/assets/images/AZUREAUTO/SIRI05.PNG)
 
 New done, select *Next* on the top right.
 
 Now it's time to name your new Shurtcut. As you can see from my example below, I'll named my new Shortcut for *Run Azure Script*.
 
-IMG - SIRI06.
+![PATH](/assets/images/AZUREAUTO/SIRI06.PNG)
 
 When I want to execute a *POST request* against my webook in Azure and fire off my PowerShell script, I simply have to wake up Siri, and say: 
 
