@@ -74,9 +74,9 @@ There are multiple types to choose from.
 
 Under *Process Automation* in your newly made Automation Account, select *Runbooks*.
 
-![PATH](/assets/images/AZUREAUTO/NEWRUNBOOK.PNG)
+![PATH](/assets/images/AZUREAUTO/NEWRUNBOOK.png)
 
-![PATH](/assets/images/AZUREAUTO/CREATE01.PNG)
+![PATH](/assets/images/AZUREAUTO/CREATE01.png)
 
 This opens the  *Create a runbook blade*:
 
