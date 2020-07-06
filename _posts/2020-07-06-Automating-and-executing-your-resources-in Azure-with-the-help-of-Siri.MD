@@ -85,7 +85,7 @@ This opens the  *Create a runbook blade*:
 * Fill in a *Description* text if you like.
 * Finish of the creation by hitting the blue *Create-button* on the bottom of the page.
 
-![PATH](/assets/images/AZUREAUTO/CREATE02.PNG)
+![PATH](/assets/images/AZUREAUTO/CREATE02.png)
 
 When you click the name of your new Runbook, you'll see someting like this:
 
