@@ -39,8 +39,7 @@ IMAGE HERE!
 
 Select ````Automation Account```` from the available Services-list.
 
-IMAGE HERE!
-ADDAUTACC
+![PATH](/assets/images/AZUREAUTO/ADDAUTACC.PNG)
 
 Next, click the ```Add``` button to create a new Automation Account.
 
@@ -75,9 +74,9 @@ There are multiple types to choose from.
 
 Under *Process Automation* in your newly made Automation Account, select *Runbooks*.
 
-IMG - NEWRUNBOOK
+![PATH](/assets/images/AZUREAUTO/NEWRUNBOOK.PNG)
 
-IMG - CREATE01
+![PATH](/assets/images/AZUREAUTO/CREATE01.PNG)
 
 This opens the  *Create a runbook blade*:
 
@@ -86,16 +85,16 @@ This opens the  *Create a runbook blade*:
 * Fill in a *Description* text if you like.
 * Finish of the creation by hitting the blue *Create-button* on the bottom of the page.
 
-IMG - CREATE02
+![PATH](/assets/images/AZUREAUTO/CREATE02.PNG)
 
 When you click the name of your new Runbook, you'll see someting like this:
 
 
-IMG - ENTERRUNBOOK
+![PATH](/assets/images/AZUREAUTO/ENTERRUNBOOK.PNG)
 
 On the main bar, select *Edit*.
 
-IMG - EDITRUNBOOK
+![PATH](/assets/images/AZUREAUTO/EDITRUNBOOK.PNG)
 
 You are now able to start authoring your runbook using standard PowerShell Workflow syntax.
 Here you could potentially write scripts that targets your own resources deployed in Azure (maybe for Start / Stop your VMs during off-hours?) among all other things you normally use PowerShell for. 
@@ -103,10 +102,9 @@ Here you could potentially write scripts that targets your own resources deploye
 When you are happy with your newly created masterpiece, you'll have the ability to *test* your script.
 This could be done by clicking *Test pane* in the main bar, and then choosing *Start*.
 
-IMG - TEST01
+![PATH](/assets/images/AZUREAUTO/TEST01.PNG)
 
-IMG - TEST02
-
+![PATH](/assets/images/AZUREAUTO/TEST02.PNG)
 
 
 ### Starting an Azure Automation runbook with a webhook
@@ -116,15 +114,15 @@ Any external application able to send a ````HTTP Post```` could potentially be u
 
 Inside your Runbook, select *Webhooks* under *Resources*.
 
- IMG - WEBHOOK01
+![PATH](/assets/images/AZUREAUTO/WEBHOOK01.PNG)
 
 Select *Add Webhook* on the main bar, and then click *Create new webook*.
 
-IMG - WEBHOOK02
+![PATH](/assets/images/AZUREAUTO/WEBHOOK02.PNG)
 
 Give it a suitable name, verify that it is enabled, set disired expiration date and don't forget to copy the URL at the bottom. Press *OK* at the buttom to close the blade.
 
-IMG - WEBHOOK03
+![PATH](/assets/images/AZUREAUTO/WEBHOOK03.PNG)
 
 Now that we have both a working PowerShell script and a webhook ready to be used, how could we utilize them in a simple way?
 
