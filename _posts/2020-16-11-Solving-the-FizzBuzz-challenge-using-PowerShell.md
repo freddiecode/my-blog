@@ -35,5 +35,5 @@ else {$_}
 }
 ````
 
-Write your own script, visit https://code.golf/fizz-buzz#powershell and give it a shot :blush:
+Write your own script, visit [https://code.golf/fizz-buzz#powershell](https://code.golf/fizz-buzz#powershell) and give it a shot :blush:
 
