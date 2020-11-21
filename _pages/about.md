@@ -33,6 +33,7 @@ He is a member of the Norwegian PowerShell User Group and spends a lot of time a
 
 * VMware Certified Associate (VCA-DCV) - Data Center Virtualization
 * VMware Data Center Virtualization Fundamentals v6
+* Cisco Meraki - Cisco Meraki Certified Networking Associate (CMNA)
 * Cisco Certified Entry Networking Technician (ICND1) – *04/16 – 04/19*
 
 
@@ -41,6 +42,7 @@ He is a member of the Norwegian PowerShell User Group and spends a lot of time a
 
 * Becoming a PowerShell ninja :smile:
 * Microsoft Graph
+* Python and Flask
 * C# and Xamarin Development (A registered Apple Developer)
 * Web Services
 
