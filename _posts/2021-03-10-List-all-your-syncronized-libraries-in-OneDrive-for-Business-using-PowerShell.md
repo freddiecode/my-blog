@@ -56,7 +56,7 @@ As you can see in the example above, the function will return the Url, MountPoin
 From this point on, the possibilities (as with PowerShell in general:blush: ) of further use is endless. You can easily export this information into a text file, send it out via an email or maybe use PSexec to run this function on multiple remote computers to collect this information from different users throughout your organization?
  
  The function is found on my GitHub repo:  
- https://github.com/freddiecode/Get-ODfBSyncLibrary
+ [https://github.com/freddiecode/Get-ODfBSyncLibrary](https://github.com/freddiecode/Get-ODfBSyncLibrary)
 
 
 
