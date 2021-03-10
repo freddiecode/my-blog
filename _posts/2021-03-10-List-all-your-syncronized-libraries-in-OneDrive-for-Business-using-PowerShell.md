@@ -28,6 +28,7 @@ To use the function,  import or dot-source the script into your PowerShell sessi
 *Result:*
 ````powershell
 PS C:\WINDOWS\system32> Get-ODfBSyncLibrary
+
 Url
 ---
 https://contoso-my.sharepoint.com/personal/john_doe_contoso_com/Documents/
