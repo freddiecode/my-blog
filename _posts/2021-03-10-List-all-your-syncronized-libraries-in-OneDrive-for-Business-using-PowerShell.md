@@ -52,7 +52,8 @@ LibraryType      : Teamsite
 LastModifiedTime : 10.03.2021 17:45:48
 ````
 
-As you can see in the example above, the function will return the Url, MountPoint, LibraryType, and the LastModifiedTime from each of your syncronized library. 
+As you can see in the example above, the function will return the Url, MountPoint, LibraryType, and the LastModifiedTime from each of your syncronized library.
+Look at the different ````MountPoint````. Mysite equals OneDrive for Business and Teamsite equals SharePoint Document Libraries.
 
 From this point on, the possibilities (as with PowerShell in general:blush: ) of further use is endless. You can easily export this information into a text file, send it out via an email or maybe use PSexec to run this function on multiple remote computers to collect this information from different users throughout your organization?
  
