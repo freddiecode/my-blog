@@ -20,17 +20,17 @@ tags:
 
 Check first if your organization has either Azure AD Premium Plan 1 og 2. Log into [Microsoft Azure](https://portal.azure.com). In the portal, navigate to *Azure Active Directory > Overview*. In my example below, Azure AD Premium P2 is shown.
 
-Bilde 01.
+![PATH](/assets/images/MFA_GA/01.png)
 
 ### Check per-user MFA status
 
 Log into [Microsoft 365 admin center](https://admin.microsoft.com). Navigate to *Users > Active Users > Multi-factor authentication*. 
 
-Bilde 02.
+![PATH](/assets/images/MFA_GA/02.png)
 
 A new page will open, showing all the users, and their *multi-factor autentication status*. In the example below (in norwegian this one..), we have a couple of users who have MFA enabled, some enforced and some others in disabled state.
 
-Bilde 03.
+![PATH](/assets/images/MFA_GA/03.png)
 
 ### Connect to Azure AD using PowerShell
 
@@ -90,13 +90,13 @@ In the previous step, you'll disabled MFA for all users when running the PowerSh
 
 Log in to the [Azure portal](https://portal.azure.com) . Open the menu and browse to *Azure Active Directory > Security > Conditional Access*. Click on *New policy*.
 
-Bilde 04.
+![PATH](/assets/images/MFA_GA/04.png)
 
 Name your policy. In my example, I went for *MFA All Users*. Select *All Users* and *All Cloud Apps*.
 Under *Access control > Grant*, select *Grant access*, and enable *Require multi-factor autentication*.
 Enable the policy and click *Save*.
 
-Bilde 05.
+![PATH](/assets/images/MFA_GA/05.png)
 
 In a few minutes our new Conditional policy will take affect.
 At this time, you'll successfully moved from per-user MFA to Conditional Access based MFA.
@@ -106,24 +106,12 @@ The last step is to verify the changes and confirm that it's in working order.
 
 All users show the MFA status *disabled* on the Microsoft 365 Multi-Factor Autentication page.
 
-Bilde 06.
+![PATH](/assets/images/MFA_GA/06.png)
 
 When logging into, for example [portal.office.com](https://portal.office.com), with an account that already had MFA configured, it will work again without need of completing the MFA setup again.
 
-Bilde 07.
+![PATH](/assets/images/MFA_GA/07.png)
 
 Any user that did not have MFA enabled, or any new users created in the future will be asked to go through the MFA setup before they will be able to log in again, for example into [portal.office.com](https://portal.office.com) as mentioned earlier.
 
-Bilde 08.
-
-
-
-
-
-
-
-
-
-
-
-
+![PATH](/assets/images/MFA_GA/08.png)
