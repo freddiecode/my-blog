@@ -11,7 +11,7 @@ tags:
 ---
 ### Transition from per-user MFA to Conditional Access MFA
 
-
+In the blog post, I thought to show how to easily transition from per-user based MFA to a Conditional Access based MFA.
 
 >**What is Conditional Access?**
 >"..The modern security perimeter now extends beyond an organization's network to include user and device identity. Organizations can utilize these identity signals as part of their access control decisions..."
