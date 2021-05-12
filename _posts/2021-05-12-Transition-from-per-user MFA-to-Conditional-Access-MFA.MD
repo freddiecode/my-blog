@@ -46,7 +46,7 @@ Install-Module MSOnline
 
 ### Convert per-user MFA to Conditional Access based MFA with PowerShell
 
-When we are connected to Azure AD with PowerShell, Microsoft has luckily provided the community with a great script, that we could use for helping us with the convertion.
+When we are connected to Azure AD with PowerShell, Microsoft has luckily provided the community with a great script that we could use for helping us with the convertion.
 
 ````powershell
 # Sets the MFA requirement state
