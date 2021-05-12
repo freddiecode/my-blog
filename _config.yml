@@ -67,7 +67,7 @@ plugins:
 
 author:
   name   : "Freddie Christiansen"
-  avatar : "/assets/images/Freddie_2020_Profil.png"
+  avatar : "/assets/images/bio-photo_2021.png"
   bio    : "Hi, I'm Freddie. I like PowerShell."
   location : "Near Hamar, Norway"
   links:
