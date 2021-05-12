@@ -25,6 +25,8 @@ He is a member of the Norwegian PowerShell User Group and spends a lot of time a
 
 <img src="/assets/images/microsoft-certified-fundamentals-badge.svg" alt="MS365" width="120" height="120">
 
+<img src="assets/images/CMNA Signature Logo.png" alt="MS365" width="320" height="105">
+
 
 
 
