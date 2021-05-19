@@ -78,21 +78,18 @@ Creating this app policy will **deny access** to **all** Microsoft Graph APIs fo
 
 ````powershell
 Connect-ExchangeOnline
-
 ````
 
 2. Create a new *deny* access policy:
 
 ````powershell
 New-ApplicationAccessPolicy -AccessRight DenyAccess -AppId "<Your Azure AD Application Id>" -PolicyScopeGroupID "<Display Name of your mail-enabled security group>" -Description "<An appropriate description>"
-
 ````
 
 Real world example:
 
 ````powershell
 New-ApplicationAccessPolicy -AccessRight RestrictAccess -AppId "720062ad-3b7f-4e0a-85b3-2b2c1fce5a4c" -PolicyScopeGroupId "MyRestrictedSecGroup" -Description "Restrict this app to members of the security group MyRestrictedUsersGroup"
-
 ````
 
 To view details of your newly created app policy (or all others) , you could use the following cmdlet:
@@ -100,7 +97,6 @@ To view details of your newly created app policy (or all others) , you could use
 ````powershell
 # Return a list of application access policies
 Get-ApplicationAccessPolicy
-
 ````
 
 ````powershell
@@ -118,7 +114,6 @@ AccessRight      : RestrictAccess
 ShardType        : All
 IsValid          : True
 ObjectState      : Unchanged
-
 ````
 
 ### Example 2. Create a new *Restrict Access* Application Policy
@@ -152,7 +147,6 @@ ObjectId                             DisplayName UserPrincipalName              
 --------                             ----------- -----------------                    --------
 73b8a426-22b1-49d1-a181-ae931495f6f4 Adele Vance AdeleV@cloudpilotdev.onmicrosoft.com Member
 2a7887cd-c2aa-4b81-9a6b-e8fa42f1cddf Alex Wilber AlexW@cloudpilotdev.onmicrosoft.com  Member
-
 ````
 Now you have some user accounts to test out new newly created app policy.
 
@@ -219,7 +213,6 @@ Mailbox           : AdeleV
 MailboxId         : 73b8a426-22b1-49d1-a181-ae931495f6f4
 MailboxSid        : S-1-5-21-3169798578-2053692951-2481737396-4020940
 AccessCheckResult : Granted
-
 ````
 As you can see, *AccessCheckResult* returns *Granted*.
 
