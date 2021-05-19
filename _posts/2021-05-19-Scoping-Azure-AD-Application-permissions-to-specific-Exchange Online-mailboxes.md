@@ -67,7 +67,7 @@ Unfortunately, it is not possible to create a new mail-enabled security group us
 
 ## Configure a new Application Access Policy ( 2 examples )
 
-### Example 1. Create a new *Deny Access* Application Policy
+### Example 1 - Create a new *Deny Access* Application Policy
 
 Creating this app policy will **deny access** to **all** Microsoft Graph APIs for Outlook resources mentioned above to **all** members of the selected security group.
 
@@ -114,7 +114,7 @@ IsValid          : True
 ObjectState      : Unchanged
 ````
 
-### Example 2. Create a new *Restrict Access* Application Policy
+### Example 2 - Create a new *Restrict Access* Application Policy
 
 Creating this app policy will **restrict access** to **all** Microsoft Graph APIs for Outlook resources mentioned above to **only** the members of the selected security group.
 
