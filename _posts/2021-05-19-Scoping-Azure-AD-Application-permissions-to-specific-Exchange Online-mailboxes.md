@@ -190,7 +190,7 @@ GET https://graph.microsoft.com/v1.0/users/HenriettaM@cloudpilotdev.onmicrosoft.
 **ProTip!**
 
 If you prefer, it is also possible to test access via PowerShell :blush:
-You could use the *Test-ApplicationAccessPolicy* cmdlet to test access right of an application to a specific user/mailbox.
+You could use the *Test-ApplicationAccessPolicy* cmdlet to test access rights of an application to a specific user/mailbox.
 
 Testing a user account who **is** a part of the selected security group:
 ```powershell
