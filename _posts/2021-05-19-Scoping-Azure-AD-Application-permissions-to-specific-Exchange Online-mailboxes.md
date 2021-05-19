@@ -10,7 +10,7 @@ tags:
   - Exchange Online
   
 ---
-### Scoping Azure AD Application permissions to specific Exchange Online mailboxes"
+### Scoping Azure AD Application permissions to specific Exchange Online mailboxes
 
 When working with application permissions via Microsoft Graph, some IT administrators may want to limit the app access to a specific set of mailboxes. Using this approach will allow granular access control to your organization's user data. 
 
