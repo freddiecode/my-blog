@@ -33,13 +33,11 @@ When working with application permissions via Microsoft Graph, some IT administr
 ## Gather prerequisites
 
 1. Connect to Azure AD using PowerShell:
-
 ```powershell
 C:\WINDOWS\system32> Connect-AzureAD
 ```
 
 2. Get details of your Azure AD application. Make a note of the returned *AppId* for future use.
-
 ```powershell
 C:\WINDOWS\system32> Get-AzureADApplication -Filter "DisplayName eq 'MySampleApplication'"
 
@@ -74,29 +72,26 @@ abb699b3-537f-4516-81bf-2fc4edb22990 5050e2d9-1797-4207-a012-27bf174ab2a7 MySamp
 Creating this app policy will **deny access** to **all** Microsoft Graph APIs for Outlook resources mentioned above to **all** members of the selected security group.
 
 1. Connect to Exchange Online using PowerShell:
-
 ````powershell
 Connect-ExchangeOnline
 ````
 
 2. Create a new *deny* access policy:
-
 ````powershell
 New-ApplicationAccessPolicy -AccessRight DenyAccess -AppId "<Your Azure AD Application Id>" -PolicyScopeGroupID "<Display Name of your mail-enabled security group>" -Description "<An appropriate description>"
 ````
 
 Real world example:
-
 ````powershell
 New-ApplicationAccessPolicy -AccessRight RestrictAccess -AppId "720062ad-3b7f-4e0a-85b3-2b2c1fce5a4c" -PolicyScopeGroupId "MyRestrictedSecGroup" -Description "Restrict this app to members of the security group MyRestrictedUsersGroup"
 ````
 
 To view details of your newly created app policy (or all others) , you could use the following cmdlet:
-
 ````powershell
 # Return a list of application access policies
 Get-ApplicationAccessPolicy
 ````
+
 
 ````powershell
 PS C:\WINDOWS\system32> Get-ApplicationAccessPolicy
@@ -120,13 +115,11 @@ ObjectState      : Unchanged
 Creating this app policy will **restrict access** to **all** Microsoft Graph APIs for Outlook resources mentioned above to **only** the members of the selected security group.
 
 1. Connect to Exchange Online if not already connected:
-
 ````powershell
 Connect-ExchangeOnline
 ````
 
 2. Create a new *restrict* access policy:
-
 ````powershell
 New-ApplicationAccessPolicy -AccessRight RestrictAccess -AppId "<Your Azure AD Application Id>" -PolicyScopeGroupID "<Display Name of your mail-enabled security group>" -Description "<An appropriate description>"
 ````
@@ -136,7 +129,6 @@ New-ApplicationAccessPolicy -AccessRight RestrictAccess -AppId "<Your Azure AD A
 The following is targeted against a policy of scope *RestrictAccess*, but the workflow will also be similar agaist testing a policy of scope *DenyAccess*.
 
 1. Get a list of all members of out selected security group:
-
 ````powershell
 # List members of our 'MyRestrictedSecGroup'
 
@@ -150,7 +142,6 @@ ObjectId                             DisplayName UserPrincipalName              
 Now you have some user accounts to test out new newly created app policy.
 
 2. When sending a GET request to Microsoft Graph API Endpoint to list calendars to a users who is member of the selected security group, you'll get a normal and expected response in return:
-
 ````
 GET https://graph.microsoft.com/v1.0/users/AdeleV@cloudpilotdev.onmicrosoft.com/calendar
 ````
@@ -181,10 +172,10 @@ GET https://graph.microsoft.com/v1.0/users/AdeleV@cloudpilotdev.onmicrosoft.com/
 ````
 
 3. But when trying to do the same thing against a user who is **not** a part of the selected security group, you'll recieve an *access denied* response back. It works as expected.
-
 ````
 GET https://graph.microsoft.com/v1.0/users/HenriettaM@cloudpilotdev.onmicrosoft.com/calendar
 ````
+
 
 ````json
 {
@@ -201,7 +192,6 @@ If you prefer, it is also possible to test access via PowerShell :blush:
 You could use the *Test-ApplicationAccessPolicy* cmdlet to test access rights of an application to a specific user/mailbox.
 
 Testing a user account who **is** a part of the selected security group:
-
 ````powershell
 PS C:\WINDOWS\system32> Test-ApplicationAccessPolicy -AppId 5050e2d9-1797-4207-a012-27bf174ab2a7 -Identity AdeleV@cloudpilotdev.onmicrosoft.com
 
@@ -216,7 +206,6 @@ AccessCheckResult : Granted
 As you can see, *AccessCheckResult* returns *Granted*.
 
 Testing a user account who is **not** a part of the selected security group:
-
 ````powershell
 PS C:\WINDOWS\system32> Test-ApplicationAccessPolicy -AppId 5050e2d9-1797-4207-a012-27bf174ab2a7 -Identity LeeG@cloudpilotdev.onmicrosoft.com
 
