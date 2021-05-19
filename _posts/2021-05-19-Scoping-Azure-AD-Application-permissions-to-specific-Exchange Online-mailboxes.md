@@ -128,7 +128,7 @@ New-ApplicationAccessPolicy -AccessRight RestrictAccess -AppId "<Your Azure AD A
 The following is targeted against a policy of scope *RestrictAccess*, but the workflow will also be similar agaist testing a policy of scope *DenyAccess*.
 
 1. Get a list of all members of out selected security group:
-```powershell
+````powershell
 # List members of our 'MyRestrictedSecGroup'
 
 PS C:\WINDOWS\system32> (Get-AzureADGroup | Where-Object {$_.DisplayName -eq 'MyRestrictedSecGroup'}).ObjectId | Get-AzureADGroupMember
@@ -137,7 +137,7 @@ ObjectId                             DisplayName UserPrincipalName              
 --------                             ----------- -----------------                    --------
 73b8a426-22b1-49d1-a181-ae931495f6f4 Adele Vance AdeleV@cloudpilotdev.onmicrosoft.com Member
 2a7887cd-c2aa-4b81-9a6b-e8fa42f1cddf Alex Wilber AlexW@cloudpilotdev.onmicrosoft.com  Member
-```
+````
 Now you have some user accounts to test out new newly created app policy.
 
 2. When sending a GET request to Microsoft Graph API Endpoint to list calendars to a users who is member of the selected security group, you'll get a normal and expected response in return:
