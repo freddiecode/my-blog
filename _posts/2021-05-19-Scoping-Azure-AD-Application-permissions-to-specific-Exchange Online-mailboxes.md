@@ -138,6 +138,7 @@ ObjectId                             DisplayName UserPrincipalName              
 --------                             ----------- -----------------                    --------
 73b8a426-22b1-49d1-a181-ae931495f6f4 Adele Vance AdeleV@cloudpilotdev.onmicrosoft.com Member
 2a7887cd-c2aa-4b81-9a6b-e8fa42f1cddf Alex Wilber AlexW@cloudpilotdev.onmicrosoft.com  Member
+
 ````
 Now you have some user accounts to test out new newly created app policy.
 
@@ -172,6 +173,7 @@ GET https://graph.microsoft.com/v1.0/users/AdeleV@cloudpilotdev.onmicrosoft.com/
 ````
 
 3. But when trying to do the same thing against a user who is **not** a part of the selected security group, you'll recieve an *access denied* response back. It works as expected.
+
 ````
 GET https://graph.microsoft.com/v1.0/users/HenriettaM@cloudpilotdev.onmicrosoft.com/calendar
 ````
@@ -184,6 +186,7 @@ GET https://graph.microsoft.com/v1.0/users/HenriettaM@cloudpilotdev.onmicrosoft.
 "message": "Access to OData is disabled."
 }
 }
+
 ````
 
 **ProTip!**
@@ -202,6 +205,7 @@ Mailbox           : AdeleV
 MailboxId         : 73b8a426-22b1-49d1-a181-ae931495f6f4
 MailboxSid        : S-1-5-21-3169798578-2053692951-2481737396-4020940
 AccessCheckResult : Granted
+
 ````
 As you can see, *AccessCheckResult* returns *Granted*.
 
@@ -216,6 +220,7 @@ Mailbox           : LeeG
 MailboxId         : b9806fa0-42c9-4175-a052-8cd70bceb1f2
 MailboxSid        : S-1-5-21-3169798578-2053692951-2481737396-4020925
 AccessCheckResult : Denied
+
 ````
 
 In this example, *AccessCheckResult* returns *Denied*. It works :smile:
