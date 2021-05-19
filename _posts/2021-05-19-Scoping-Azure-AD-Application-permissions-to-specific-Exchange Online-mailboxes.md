@@ -12,7 +12,7 @@ tags:
 ---
 ### Scoping Azure AD Application permissions to specific Exchange Online mailboxes
 
-When working with application permissions via Microsoft Graph, some IT administrators may want to limit the app access to a specific set of mailboxes. Using this approach will allow granular access control to your organization's user data. 
+When working with application permissions via Microsoft Graph, some IT administrators may want to limit the app access to a specific set of mailboxes. For example, the *Mail.Read* application permission allows apps to read mail in all mailboxes without a signed-in user. This can be unfortunate in some contexts. Using this approach will allow granular access control to your organization's user data. 
 
 >Please note - at the time of this writing, only specific permissions against the *Outlook REST APIs* are supported. See the list of supported permissions copied from [Microsoft Docs](https://docs.microsoft.com/en-us/graph/auth-limit-mailbox-access) below:
 
