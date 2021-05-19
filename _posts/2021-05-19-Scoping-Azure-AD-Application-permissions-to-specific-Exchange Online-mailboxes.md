@@ -87,8 +87,9 @@ Real world example:
 New-ApplicationAccessPolicy -AccessRight RestrictAccess -AppId "720062ad-3b7f-4e0a-85b3-2b2c1fce5a4c" -PolicyScopeGroupId "MyRestrictedSecGroup" -Description "Restrict this app to members of the security group MyRestrictedUsersGroup"
 ```
 
-To view details of your newly created app policy (or all others) , you could use the following:
+To view details of your newly created app policy (or all others) , you could use the following cmdlet:
 ```powershell
+# Return a list of application access policies
 Get-ApplicationAccessPolicy
 ```
 
