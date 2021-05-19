@@ -48,21 +48,21 @@ abb699b3-537f-4516-81bf-2fc4edb22990 5050e2d9-1797-4207-a012-27bf174ab2a7 MySamp
 
 Unfortunately, it is not possible to create a new mail-enabled security group using PowerShell, so we will need to create it via the EAC (Exchange Admin Center):
 
-	1.  In the  [EAC](https://admin.exchange.microsoft.com/), navigate to  **Recipients**  >  **Groups**  >  **Mail-enabled security**.
+  1.  In the  [EAC](https://admin.exchange.microsoft.com/), navigate to  **Recipients**  >  **Groups**  >  **Mail-enabled security**.
     
-	2.  Click  **Add a group**  and follow the instructions in the details pane.
+  2.  Click  **Add a group**  and follow the instructions in the details pane.
     
 	    -   Under  **Choose a group type**  section, select  **Mail-enabled security**  and click  **Next**.
         
 	    -   Under  **Set up the basics**  section, enter the details and click  **Next**.
         
-	3.  In  **Assign owners**  section, click  **+ Assign owners**, select the group owner from the list, and click  **Next**.
+  3.  In  **Assign owners**  section, click  **+ Assign owners**, select the group owner from the list, and click  **Next**.
     
-	4.  Under  **Add members**, click  **+ Add members**, select the group members from the list, and click  **Next**.
+  4.  Under  **Add members**, click  **+ Add members**, select the group members from the list, and click  **Next**.
     
-	5.  In  **Edit settings**  section, enter the group email address (this you will use when creating a new application policy) and then click  **Next**:
+  5.  In  **Edit settings**  section, enter the group email address (this you will use when creating a new application policy) and then click  **Next**:
         
-	6.  In  **Review and finish adding group**  section, verify all the details, click  **Create group**, and then click  **Close**.
+  6.  In  **Review and finish adding group**  section, verify all the details, click  **Create group**, and then click  **Close**.
 
 
 ## Configure a new Application Access Policy ( 2 examples )
