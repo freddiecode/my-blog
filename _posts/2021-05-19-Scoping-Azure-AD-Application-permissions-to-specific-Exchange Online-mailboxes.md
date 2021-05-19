@@ -73,9 +73,9 @@ abb699b3-537f-4516-81bf-2fc4edb22990 5050e2d9-1797-4207-a012-27bf174ab2a7 MySamp
 Creating this app policy will **deny access** to **all** Microsoft Graph APIs for Outlook resources mentioned above to **all** members of the selected security group.
 
 1. Connect to Exchange Online using PowerShell:
-	```powershell
-	Connect-ExchangeOnline
-	```
+```powershell
+Connect-ExchangeOnline
+```
 
 2. Create a new *deny* access policy:
 ```powershell
