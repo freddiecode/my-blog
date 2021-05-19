@@ -48,7 +48,7 @@ abb699b3-537f-4516-81bf-2fc4edb22990 5050e2d9-1797-4207-a012-27bf174ab2a7 MySamp
 
 ````
 
-1. Unfortunately, it is not possible to create a new mail-enabled security group using PowerShell, so we will need to create it via the EAC (Exchange Admin Center):
+3. Unfortunately, it is not possible to create a new mail-enabled security group using PowerShell, so we will need to create it via the EAC (Exchange Admin Center):
 
 	1.  In the  [EAC](https://admin.exchange.microsoft.com/), navigate to  **Recipients**  >  **Groups**  >  **Mail-enabled security**.
     
