@@ -38,12 +38,14 @@ C:\WINDOWS\system32> Connect-AzureAD
 ```
 
 2. Get details of your Azure AD application. Make a note of the returned *AppId* for future use.
+
 ````powershell
 C:\WINDOWS\system32> Get-AzureADApplication -Filter "DisplayName eq 'MySampleApplication'"
 
 ObjectId                             AppId                                DisplayName
 --------                             -----                                -----------
 abb699b3-537f-4516-81bf-2fc4edb22990 5050e2d9-1797-4207-a012-27bf174ab2a7 MySampleApplication
+
 ````
 
 1. Unfortunately, it is not possible to create a new mail-enabled security group using PowerShell, so we will need to create it via the EAC (Exchange Admin Center):
@@ -74,22 +76,26 @@ Creating this app policy will **deny access** to **all** Microsoft Graph APIs fo
 1. Connect to Exchange Online using PowerShell:
 ````powershell
 Connect-ExchangeOnline
+
 ````
 
 2. Create a new *deny* access policy:
 ````powershell
 New-ApplicationAccessPolicy -AccessRight DenyAccess -AppId "<Your Azure AD Application Id>" -PolicyScopeGroupID "<Display Name of your mail-enabled security group>" -Description "<An appropriate description>"
+
 ````
 
 Real world example:
 ````powershell
 New-ApplicationAccessPolicy -AccessRight RestrictAccess -AppId "720062ad-3b7f-4e0a-85b3-2b2c1fce5a4c" -PolicyScopeGroupId "MyRestrictedSecGroup" -Description "Restrict this app to members of the security group MyRestrictedUsersGroup"
+
 ````
 
 To view details of your newly created app policy (or all others) , you could use the following cmdlet:
 ````powershell
 # Return a list of application access policies
 Get-ApplicationAccessPolicy
+
 ````
 
 
@@ -108,6 +114,7 @@ AccessRight      : RestrictAccess
 ShardType        : All
 IsValid          : True
 ObjectState      : Unchanged
+
 ````
 
 ### Example 2. Create a new *Restrict Access* Application Policy
@@ -117,11 +124,13 @@ Creating this app policy will **restrict access** to **all** Microsoft Graph API
 1. Connect to Exchange Online if not already connected:
 ````powershell
 Connect-ExchangeOnline
+
 ````
 
 2. Create a new *restrict* access policy:
 ````powershell
 New-ApplicationAccessPolicy -AccessRight RestrictAccess -AppId "<Your Azure AD Application Id>" -PolicyScopeGroupID "<Display Name of your mail-enabled security group>" -Description "<An appropriate description>"
+
 ````
 
 ### (Optional) Testing and verification
@@ -145,6 +154,7 @@ Now you have some user accounts to test out new newly created app policy.
 2. When sending a GET request to Microsoft Graph API Endpoint to list calendars to a users who is member of the selected security group, you'll get a normal and expected response in return:
 ````
 GET https://graph.microsoft.com/v1.0/users/AdeleV@cloudpilotdev.onmicrosoft.com/calendar
+
 ````
 
 ````json
@@ -170,12 +180,13 @@ GET https://graph.microsoft.com/v1.0/users/AdeleV@cloudpilotdev.onmicrosoft.com/
 "address": "AdeleV@cloudpilotdev.onmicrosoft.com"
 }
 }
+
 ````
 
 3. But when trying to do the same thing against a user who is **not** a part of the selected security group, you'll recieve an *access denied* response back. It works as expected.
-
 ````
 GET https://graph.microsoft.com/v1.0/users/HenriettaM@cloudpilotdev.onmicrosoft.com/calendar
+
 ````
 
 
