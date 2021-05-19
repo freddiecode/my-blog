@@ -38,13 +38,13 @@ C:\WINDOWS\system32> Connect-AzureAD
 ```
 
 2. Get details of your Azure AD application. Make a note of the returned *AppId* for future use.
-```powershell
+````powershell
 C:\WINDOWS\system32> Get-AzureADApplication -Filter "DisplayName eq 'MySampleApplication'"
 
 ObjectId                             AppId                                DisplayName
 --------                             -----                                -----------
 abb699b3-537f-4516-81bf-2fc4edb22990 5050e2d9-1797-4207-a012-27bf174ab2a7 MySampleApplication
-```
+````
 
 1. Unfortunately, it is not possible to create a new mail-enabled security group using PowerShell, so we will need to create it via the EAC (Exchange Admin Center):
 
