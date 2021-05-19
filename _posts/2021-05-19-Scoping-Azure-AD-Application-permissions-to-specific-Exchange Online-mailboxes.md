@@ -178,7 +178,6 @@ GET https://graph.microsoft.com/v1.0/users/AdeleV@cloudpilotdev.onmicrosoft.com/
 }
 }
 ````
-
 3. But when trying to do the same thing against a user who is **not** a part of the selected security group, you'll recieve an *access denied* response back. It works as expected.
 
 ````
