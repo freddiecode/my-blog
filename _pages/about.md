@@ -17,11 +17,14 @@ He is a member of the Norwegian PowerShell User Group and spends a lot of time a
  
 **Certifications:**
 
+* Microsoft Certified: Azure Fundamentals
 * Microsoft 365 Certified: Fundamentals
 * VMware Certified Associate (VCA-DCV) - Data Center Virtualization
 * VMware Data Center Virtualization Fundamentals v6
 * Cisco Meraki - Cisco Meraki Certified Networking Associate (CMNA)
 * Cisco Certified Entry Networking Technician (ICND1) – *04/16 – 04/19*
+
+<img src="/assets/images/microsoft-certified-fundamentals-badge.svg" alt="AZ900" width="120" height="120">
 
 <img src="/assets/images/microsoft-certified-fundamentals-badge.svg" alt="MS365" width="120" height="120">
 
