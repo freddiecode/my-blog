@@ -76,10 +76,10 @@ author:
     - label: " Mail"
       icon: "far fa-envelope"
       url: "mailto:freddie@cloudpilot.no"
-    - label: "GitHub"
+    - label: " GitHub"
       icon: "fab fa-github"
       url: "https://www.github.com/freddiecode
-    - label: "LinkedIn"
+    - label: " LinkedIn"
       icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/freddie-christiansen-64305b106"
 
