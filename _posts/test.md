@@ -1,3 +1,3 @@
-```cs
+```csharp
 Console.WriteLine("Hello World");
 ```
