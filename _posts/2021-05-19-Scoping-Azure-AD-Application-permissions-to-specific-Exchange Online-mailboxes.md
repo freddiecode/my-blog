@@ -1,5 +1,6 @@
 ---
 title:  "Scoping Azure AD Application permissions to specific Exchange Online mailboxes"
+classes: wide
 date:   2021-05-19 21:00:00
 categories: 
 - Blog
