@@ -169,7 +169,7 @@ Connect-MgGraph -Scopes "User.Read.All", "Group.ReadWrite.All", "Team.Create"
 
 After you have executed the cmdlet shown above, a web page are opened and requires you to accept the newly added permissions (see that `Create teams` are added to the list) :
 
-![Accept permissions](https://github.com/freddiecode/my-blog/blob/master/assets/images/MSGraphSDK/NewPermissions.png)
+![Accept permissions](/assets/images/MSGraphSDK/NewPermissions.png)
 
 Accept the required permissions to complete the connection to Microsoft Graph.
 
@@ -253,7 +253,7 @@ Now let's use our `$externalTeam` variable and our `$general` variable to post a
 New-MgTeamChannelMessage -TeamId $externalTeam -ChannelId $general.Id -Body @{ Content="Hello World" }
 ````
 
-![New teams message](https://github.com/freddiecode/my-blog/blob/master/assets/images/MSGraphSDK/TeamMessage.png)
+![New teams message](/assets/images/MSGraphSDK/TeamMessage.png)
 
 If you want to send an `urgent` message, add the `-Importance` parameter as shown below:
 ````powershell
@@ -261,7 +261,7 @@ If you want to send an `urgent` message, add the `-Importance` parameter as show
 New-MgTeamChannelMessage -TeamId $externalTeam -ChannelId $general.Id -Body @{ Content="Please bring me a coffee!" } -Importance "urgent"
 ````
 
-![New urgent teams message](https://github.com/freddiecode/my-blog/blob/master/assets/images/MSGraphSDK/TeamUrgentMessage.png)
+![New urgent teams message](/assets/images/MSGraphSDK/TeamUrgentMessage.png)
 
 ### Create a new user
 Example 1:
@@ -369,18 +369,6 @@ Disconnect-MgGraph
 I hope this blog post has inspired you to having a go against Microsoft Graph, and I have managed to show how powerful this module is when you want to manage data in Microsoft 365 using PowerShell :blush:
 
 -Freddie
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
