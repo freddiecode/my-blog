@@ -184,16 +184,13 @@ Get-MgUser
 
 This outputs a listing of users in your Microsoft 365 subscription:
 ````powershell
-Id                                   DisplayName              	Mail                                  	UserPrincipalName
---                                   -----------              	----                                  	-----------------
-88d1ba68-8ff5-4de2-90ed-768c00abcfae Conf Room Adams          	Adams@cloudpilotlabs.xyz         	Adams@cloudpilotlabs.xyz
-3103c7b9-cfe6-4cd3-a696-f88909b9a609 Adele Vance              	AdeleV@cloudpilotlabs.xyz        	AdeleV@cloudpilotlabs.xyz
-e0c6ee40-e105-476d-9597-acd061d21fcb Alex Wilber              	AlexW@cloudpilotlabs.xyz         	AlexW@cloudpilotlabs.xyz
-17c6bdee-8ed3-49af-a65e-71b64cca8382 Allan Deyoung            	AllanD@cloudpilotlabs.xyz        	AllanD@cloudpilotlabs.xyz
-e5b78950-27cd-4f01-b083-eab4da97ca6a Conf Room Baker          	Baker@cloudpilotlabs.xyz         	Baker@cloudpilotlabs.xyz
-40467725-1a58-495d-9e2f-5970c6306d8d	Bianca Pisani                                                  	BiancaP@cloudpilotlabs.xyz
-ce73bdb5-bf12-405e-ab85-40122fdd6eb7 	Brian Johnson				BrianJ@cloudpilotlabs.xyz        	BrianJ@cloudpilotlabs.xyz
-df1347a3-7ce7-4b4d-8aab-7c65b5c907b9	Cameron White                                                  	CameronW@cloudpilotlabs.xyz
+Id                                   DisplayName                                           Mail                                        UserPrincipalName                                             UserType
+--                                   -----------                                           ----                                        -----------------                                             --------
+73b8a426-22b1-49d1-a181-ae931495f6f4 Adele Vance                                           adelev@cloudpilotlabs.xyz                   adelev@cloudpilotlabs.xyz
+42d7a7a0-e6d0-46f1-b570-fae50ae12899 Admin                                                 admin@cloudpilotlabs.xyz                    admin@cloudpilotlabs.xyz
+2a7887cd-c2aa-4b81-9a6b-e8fa42f1cddf Alex Wilber                                           AlexW@cloudpilotdev.onmicrosoft.com         AlexW@cloudpilotdev.onmicrosoft.com
+3e3ef4b2-20fa-41fa-b764-3dac0bbdcc42 Berit Nordmann                                        berit@cloudpilotdev.onmicrosoft.com         berit@cloudpilotdev.onmicrosoft.com
+2996d76a-a2db-426b-a1ec-93c6e6c92725 Bodil Hansen                                          bodil.hansen@cloudpilotlabs.xyz             bodil.hansen@cloudpilotlabs.xyz
 ````
 
 ### Filtering 
