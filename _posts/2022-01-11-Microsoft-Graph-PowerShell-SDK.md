@@ -1,5 +1,6 @@
 ---
 title:  "Microsoft Graph PowerShell SDK"
+classes: wide
 date:   2022-01-11 15:30:00
 categories: 
 - Blog
