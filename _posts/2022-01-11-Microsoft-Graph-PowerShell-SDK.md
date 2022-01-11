@@ -155,7 +155,7 @@ The command prompts you to go to a web page to sign in using a device code. Once
 
 Example: If you are going to create a new team, head over to the Microsoft Graph documentation on [create team](https://docs.microsoft.com/en-us/graph/api/team-post?view=graph-rest-1.0&tabs=http), and look up the required permissons table:
 
-![Create new team](https://github.com/freddiecode/my-blog/blob/master/assets/images/MSGraphSDK/CreateTeamPermissions.png)
+![Create new team](/assets/images/MSGraphSDK/CreateTeamPermissions.png)
 
 Like shown here, you need to change (or add) the permissions to include (from least to most privileged):
 
