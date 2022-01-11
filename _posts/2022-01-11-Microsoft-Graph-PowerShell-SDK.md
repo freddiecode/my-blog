@@ -29,7 +29,7 @@ I go for the short answer:
 
 ### Microsoft Graph documentation
 
-- Found here: aka.ms/graphapiref
+- Found here: [https://aka.ms/graphapiref](aka.ms/graphapiref)
  - API docs will show the correct endpoint, HTTP request, required permissions (*least to most privileged*), request headers, request body, response messages and a lot of examples for you to play around with.
 - You can copy/paste examples found in docs and re-use them in [Microsoft Graph Explorer](https://aka.ms/ge) with a sample tenant. 
 
