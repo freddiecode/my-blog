@@ -29,7 +29,7 @@ To use passwordless authentication in Azure AD, first enable the combined regist
 To enable the authentication method for passwordless phone sign-in, complete the following steps:
 
 1. Sign in to the [Azure portal](https://portal.azure.com).
-2. Navigate to `Azure Active Directory`, then browse to **Security** > **Authentication methods** > **Policies**. 
+2. Navigate to **Azure Active Directory**, then browse to **Security** > **Authentication methods** > **Policies**. 
 
 ![](/assets/images/PASSWORDLESS/01.png)
 
@@ -58,24 +58,23 @@ Users register themself for the passwordless authentication method of Azure AD b
 
 ![](/assets/images/PASSWORDLESS/05.jpg)
 
-Select `***` on the top right corner.
+* Select `***` on the top right corner.
 
 ![](/assets/images/PASSWORDLESS/06.jpg)
 
-Select **Set up phone sign-in**.
+* Select **Set up phone sign-in**.
 
 ![](/assets/images/PASSWORDLESS/07.jpg)
-Select **Continue**.
+* Select **Continue**.
 
 ![](/assets/images/PASSWORDLESS/08.jpg)
-
-Enter your account password and click **Sign-in**.
+* Enter your account password and click **Sign-in**.
 
 ![](/assets/images/PASSWORDLESS/09.jpg)
-Confirm MFA **Sign-in request** on your device.
+* Confirm MFA **Sign-in request** on your device.
 
 ![](/assets/images/PASSWORDLESS/10.jpg)
-Press **Register** to register your device in Azure Active Directory.
+* Press **Register** to register your device in Azure Active Directory.
 
 #### Device registration
 Before you can create this new strong credential, there are prerequisites. One prerequisite is that the device on which the Microsoft Authenticator app is installed must be registered within the Azure AD tenant to an individual user.
@@ -86,7 +85,7 @@ Currently, a device can only be enabled for passwordless sign-in in a **single t
 Device registration is not the same as device management or mobile device management (MDM). Device registration only associates a device ID and a user ID together, in the Azure AD directory.
 
 ![](/assets/images/PASSWORDLESS/11.jpg)
-Select **Finish** to complete the passwordless sign-in setup.
+* Press **Finish** to complete the passwordless sign-in setup.
 
 ## Sign in using passwordless credentials
 
