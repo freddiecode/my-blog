@@ -57,11 +57,17 @@ Users register themself for the passwordless authentication method of Azure AD b
 5. On their device, in **Microsoft Authenticator**, choose **Setup phone sign-in** from the drop-down menu for the account registered.
 
 ![](/assets/images/PASSWORDLESS/05.png)
+
 ![](/assets/images/PASSWORDLESS/06.png)
+
 ![](/assets/images/PASSWORDLESS/07.png)
+
 ![](/assets/images/PASSWORDLESS/08.png)
+
 ![](/assets/images/PASSWORDLESS/09.png)
+
 ![](/assets/images/PASSWORDLESS/10.png)
+
 ![](/assets/images/PASSWORDLESS/11.png)
 
 ## Sign in using passwordless credentials
