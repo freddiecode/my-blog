@@ -56,25 +56,29 @@ Users register themself for the passwordless authentication method of Azure AD b
 4. Select **Done** to complete the Authenticator configuration.
 5. On their device, in **Microsoft Authenticator**, choose **Setup phone sign-in** from the drop-down menu for the account registered.
 
-![](/assets/images/PASSWORDLESS/05.jpg)
-
 * Select `***` on the top right corner.
 
-![](/assets/images/PASSWORDLESS/06.jpg)
+![](/assets/images/PASSWORDLESS/05.jpg)
 
 * Select **Set up phone sign-in**.
 
-![](/assets/images/PASSWORDLESS/07.jpg)
+![](/assets/images/PASSWORDLESS/06.jpg)
+
 * Select **Continue**.
 
-![](/assets/images/PASSWORDLESS/08.jpg)
+![](/assets/images/PASSWORDLESS/07.jpg)
+
 * Enter your account password and click **Sign-in**.
 
-![](/assets/images/PASSWORDLESS/09.jpg)
+![](/assets/images/PASSWORDLESS/08.jpg)
+
 * Confirm MFA **Sign-in request** on your device.
 
-![](/assets/images/PASSWORDLESS/10.jpg)
+![](/assets/images/PASSWORDLESS/09.jpg)
+
 * Press **Register** to register your device in Azure Active Directory.
+
+![](/assets/images/PASSWORDLESS/10.jpg)
 
 #### Device registration
 Before you can create this new strong credential, there are prerequisites. One prerequisite is that the device on which the Microsoft Authenticator app is installed must be registered within the Azure AD tenant to an individual user.
@@ -82,10 +86,12 @@ Before you can create this new strong credential, there are prerequisites. One p
 Currently, a device can only be enabled for passwordless sign-in in a **single tenant**. This limit means that only one work or school account in the Microsoft Authenticator app can be enabled for phone sign-in.
 
 > Note
-Device registration is not the same as device management or mobile device management (MDM). Device registration only associates a device ID and a user ID together, in the Azure AD directory.
+>Device registration is not the same as device management or mobile device management (MDM). Device registration only associates a device ID and a user ID together, in the Azure AD directory.
+
+* Press **Finish** to complete the passwordless sign-in setup.
 
 ![](/assets/images/PASSWORDLESS/11.jpg)
-* Press **Finish** to complete the passwordless sign-in setup.
+
 
 ## Sign in using passwordless credentials
 
@@ -94,15 +100,14 @@ Device registration is not the same as device management or mobile device manage
 3. If necassary, selects **Others ways to sign in**.
 4. Select **Approve a request on my Microsoft Authenticator app**.
 
-The user is then presented with a number on screen:
+* The user is then presented with a number on screen:
 
 ![](/assets/images/PASSWORDLESS/12.png)
 
-The **Autenticator app** prompts the user to autenticate by typing in the correct number, instead of by entering their account password:
+* The **Authenticator app** prompts the user to autenticate by typing in the correct number, instead of by entering their account password:
 
 ![](/assets/images/PASSWORDLESS/13.jpg)
 
-
-If the user would like to disable phone sign-in, they can select **Disable phone sign-in** in the **Authenticator app** and follow the steps to disable this service.
+* If the user would like to disable phone sign-in, they can select **Disable phone sign-in** in the **Authenticator app** and follow the steps to disable this service.
 
 ![](/assets/images/PASSWORDLESS/15.jpg)
