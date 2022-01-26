@@ -69,7 +69,7 @@ Select **Continue**.
 
 ![](/assets/images/PASSWORDLESS/08.jpg)
 
-Enter your accounts password and click **Sign-in**.
+Enter your account password and click **Sign-in**.
 
 ![](/assets/images/PASSWORDLESS/09.jpg)
 Confirm MFA **Sign-in request** on your device.
