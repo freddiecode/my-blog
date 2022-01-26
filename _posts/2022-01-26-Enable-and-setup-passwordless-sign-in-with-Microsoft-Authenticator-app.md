@@ -112,7 +112,7 @@ Device registration is not the same as device management or mobile device manage
 
 ![](/assets/images/PASSWORDLESS/13.jpg)
 
-After the user has successfully entered the same number in the **Authenticator app**, and pressed **Yes** the user are securely logged in.
+After the user has successfully entered the same number in the **Authenticator app**, pressed **Yes**, the user are securely logged in.
 
 * If the user would like to disable phone sign-in, they can select **Disable phone sign-in** in the **Authenticator app** and follow the steps to disable this service.
 
