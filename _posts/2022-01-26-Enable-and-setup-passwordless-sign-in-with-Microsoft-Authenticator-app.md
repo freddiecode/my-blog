@@ -56,7 +56,7 @@ Users register themself for the passwordless authentication method of Azure AD b
 
 1. Browse to [https://aka.ms/mysecurityinfo](https://aka.ms/mysecurityinfo).
 2. Sign in, then click **Add method** > **Authenticator app** > **Add** to add the `Authenticator app`.
-3. Follow the instructions to install and configure the `Microsoft Authenticator` app on their device.
+3. Follow the instructions to install and configure the **Microsoft Authenticator** app on their device.
 4. Select **Done** to complete the Authenticator configuration.
 5. On their device, in **Microsoft Authenticator**, choose **Setup phone sign-in** from the drop-down menu for the account registered.
 
@@ -90,7 +90,7 @@ Before you can create this new strong credential, there are prerequisites. One p
 Currently, a device can only be enabled for passwordless sign-in in a **single tenant**. This limit means that only one work or school account in the Microsoft Authenticator app can be enabled for phone sign-in.
 
 > Note
->Device registration is not the same as device management or mobile device management (MDM). Device registration only associates a device ID and a user ID together, in the Azure AD directory.
+Device registration is not the same as device management or mobile device management (MDM). Device registration only associates a device ID and a user ID together, in the Azure AD directory.
 
 * Press **Finish** to complete the passwordless sign-in setup.
 
