@@ -56,19 +56,19 @@ Users register themself for the passwordless authentication method of Azure AD b
 4. Select **Done** to complete the Authenticator configuration.
 5. On their device, in **Microsoft Authenticator**, choose **Setup phone sign-in** from the drop-down menu for the account registered.
 
-![](/assets/images/PASSWORDLESS/05.png)
+![](/assets/images/PASSWORDLESS/05.jpg)
 
-![](/assets/images/PASSWORDLESS/06.png)
+![](/assets/images/PASSWORDLESS/06.jpg)
 
-![](/assets/images/PASSWORDLESS/07.png)
+![](/assets/images/PASSWORDLESS/07.jpg)
 
-![](/assets/images/PASSWORDLESS/08.png)
+![](/assets/images/PASSWORDLESS/08.jpg)
 
-![](/assets/images/PASSWORDLESS/09.png)
+![](/assets/images/PASSWORDLESS/09.jpg)
 
-![](/assets/images/PASSWORDLESS/10.png)
+![](/assets/images/PASSWORDLESS/10.jpg)
 
-![](/assets/images/PASSWORDLESS/11.png)
+![](/assets/images/PASSWORDLESS/11.jpg)
 
 ## Sign in using passwordless credentials
 
@@ -83,12 +83,12 @@ The user is then presented with a number on screen:
 
 The **Autenticator app** prompts the user to autenticate by typing in the correct number, instead of by entering their account password:
 
-![](/assets/images/PASSWORDLESS/13.png)
+![](/assets/images/PASSWORDLESS/13.jpg)
 
 
 If the user would like to disable phone sign-in, they can select **Disable phone sign-in** in the **Authenticator app** and follow the steps to disable this service.
 
-![](/assets/images/PASSWORDLESS/15.png)
+![](/assets/images/PASSWORDLESS/15.jpg)
 
 
 ### Device registration
