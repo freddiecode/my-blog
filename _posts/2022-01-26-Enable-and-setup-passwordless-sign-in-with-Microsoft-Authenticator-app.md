@@ -15,7 +15,7 @@ tags:
 
 No need to remember your account password! The Microsoft Authenticator app can be used to sign in to any Azure AD account without using a password.
 
-### Prerequisites
+#### Prerequisites:
 To use passwordless phone sign-in with the Microsoft Authenticator app, the following prerequisites must be met:
 
 -   Recommended: Azure AD Multi-Factor Authentication, with push notifications allowed as a verification method. Push notifications to your smartphone or tablet help the Authenticator app to prevent unauthorized access to accounts and stop fraudulent transactions. The Authenticator app automatically generates codes when set up to do push notifications so a user has a backup sign-in method even if their device doesn't have connectivity.
@@ -89,8 +89,7 @@ Before you can create this new strong credential, there are prerequisites. One p
 
 Currently, a device can only be enabled for passwordless sign-in in a **single tenant**. This limit means that only one work or school account in the Microsoft Authenticator app can be enabled for phone sign-in.
 
-> Note
-Device registration is not the same as device management or mobile device management (MDM). Device registration only associates a device ID and a user ID together, in the Azure AD directory.
+>**Note** Device registration is not the same as device management or mobile device management (MDM). Device registration only associates a device ID and a user ID together, in the Azure AD directory.
 
 * Press **Finish** to complete the passwordless sign-in setup.
 
