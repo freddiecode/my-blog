@@ -103,16 +103,16 @@ Currently, a device can only be enabled for passwordless sign-in in a **single t
 3. If necassary, selects **Others ways to sign in**.
 4. Select **Approve a request on my Microsoft Authenticator app**.
 
-* The user is then presented with a number on their screen:
+The user is then presented with a number on their screen:
 
 ![](/assets/images/PASSWORDLESS/12.png)
 
-* The **Authenticator app** prompts the user to autenticate by typing in the correct number, instead of by entering their account password:
+The **Authenticator app** prompts the user to autenticate by typing in the correct number, instead of by entering their account password:
 
 ![](/assets/images/PASSWORDLESS/13.jpg)
 
 After the user has successfully entered the same number in the **Authenticator app**, pressed **Yes**, the user are securely logged in.
 
-* If the user would like to disable phone sign-in, they can select **Disable phone sign-in** in the **Authenticator app** and follow the steps to disable this service.
+If the user would like to disable phone sign-in, they can select **Disable phone sign-in** in the **Authenticator app** and follow the steps to disable this service.
 
 ![](/assets/images/PASSWORDLESS/15.jpg)
