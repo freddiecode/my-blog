@@ -40,17 +40,11 @@ b. **Target** - All users or Selected users.  In my example, I'll added a single
 ![](/assets/images/PASSWORDLESS/02.png)
 
 4. Each added group or user is enabled by default to use Microsoft Authenticator in both passwordless and push notification modes ("Any" mode). To change this, for each row:
-    
-	a.  Browse to  **...** (3)  >  **Configure**.
-
+a.  Browse to  **...** (3)  >  **Configure**.
 ![](/assets/images/PASSWORDLESS/03.png)
-    
-	b.  For  **Authentication mode**  - choose  **Any** (4), or  **Passwordless**. Choosing  **Push**  prevents the use of the passwordless phone sign-in credential.
-	
-	c.  To apply the new policy, click  **Save** (6).
-
+b.  For  **Authentication mode**  - choose  **Any** (4), or  **Passwordless**. Choosing  **Push**  prevents the use of the passwordless phone sign-in credential.
+c.  To apply the new policy, click  **Save** (6).
 ![](assets/images/PASSWORDLESS/04.png)
-
 
 ## End-user registration and management of Microsoft Authenticator
 
