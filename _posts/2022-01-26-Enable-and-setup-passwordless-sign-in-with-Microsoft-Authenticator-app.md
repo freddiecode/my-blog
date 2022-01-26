@@ -58,17 +58,35 @@ Users register themself for the passwordless authentication method of Azure AD b
 
 ![](/assets/images/PASSWORDLESS/05.jpg)
 
+Select `***` on the top right corner.
+
 ![](/assets/images/PASSWORDLESS/06.jpg)
 
+Select **Set up phone sign-in**.
+
 ![](/assets/images/PASSWORDLESS/07.jpg)
+Select **Continue**.
 
 ![](/assets/images/PASSWORDLESS/08.jpg)
 
+Enter your accounts password and click **Sign-in**.
+
 ![](/assets/images/PASSWORDLESS/09.jpg)
+Confirm MFA **Sign-in request** on your device.
 
 ![](/assets/images/PASSWORDLESS/10.jpg)
+Press **Register** to register your device in Azure Active Directory.
+
+#### Device registration
+Before you can create this new strong credential, there are prerequisites. One prerequisite is that the device on which the Microsoft Authenticator app is installed must be registered within the Azure AD tenant to an individual user.
+
+Currently, a device can only be enabled for passwordless sign-in in a **single tenant**. This limit means that only one work or school account in the Microsoft Authenticator app can be enabled for phone sign-in.
+
+> Note
+Device registration is not the same as device management or mobile device management (MDM). Device registration only associates a device ID and a user ID together, in the Azure AD directory.
 
 ![](/assets/images/PASSWORDLESS/11.jpg)
+Select **Finish** to complete the passwordless sign-in setup.
 
 ## Sign in using passwordless credentials
 
@@ -89,11 +107,3 @@ The **Autenticator app** prompts the user to autenticate by typing in the correc
 If the user would like to disable phone sign-in, they can select **Disable phone sign-in** in the **Authenticator app** and follow the steps to disable this service.
 
 ![](/assets/images/PASSWORDLESS/15.jpg)
-
-
-### Device registration
-Before you can create this new strong credential, there are prerequisites. One prerequisite is that the device on which the Microsoft Authenticator app is installed must be registered within the Azure AD tenant to an individual user.
-
-Currently, a device can only be enabled for passwordless sign-in in a **single tenant**. This limit means that only one work or school account in the Microsoft Authenticator app can be enabled for phone sign-in.
-
->Device registration is not the same as device management or mobile device management (MDM). Device registration only associates a device ID and a user ID together, in the Azure AD directory.
