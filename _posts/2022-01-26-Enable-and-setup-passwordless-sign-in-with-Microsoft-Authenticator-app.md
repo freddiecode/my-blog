@@ -2,7 +2,7 @@
 
 title: "Enable and setup passwordless sign-in with Microsoft Authenticator app"
 classes: wide
-date: 2022-01-26 14:00:00
+date: 2022-01-26 18:00:00
 categories:
 - Blog
 tags:
