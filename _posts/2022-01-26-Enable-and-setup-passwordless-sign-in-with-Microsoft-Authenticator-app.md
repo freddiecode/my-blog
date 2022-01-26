@@ -41,11 +41,13 @@ b. **Target** - All users or Selected users.  In my example, I'll added a single
 
 4. Each added group or user is enabled by default to use Microsoft Authenticator in both passwordless and push notification modes ("Any" mode). To change this, for each row:
     
-	1.  Browse to  **...** (3)  >  **Configure**.
-    ![](/assets/images/PASSWORDLESS/03.png)
+	a.  Browse to  **...** (3)  >  **Configure**.
+
+![](/assets/images/PASSWORDLESS/03.png)
     
-	2.  For  **Authentication mode**  - choose  **Any** (4), or  **Passwordless**. Choosing  **Push**  prevents the use of the passwordless phone sign-in credential.
-	3.  To apply the new policy, click  **Save** (6).
+	b.  For  **Authentication mode**  - choose  **Any** (4), or  **Passwordless**. Choosing  **Push**  prevents the use of the passwordless phone sign-in credential.
+	
+	c.  To apply the new policy, click  **Save** (6).
 
 ![](assets/images/PASSWORDLESS/04.png)
 
@@ -75,16 +77,18 @@ Users register themself for the passwordless authentication method of Azure AD b
 3. If necassary, selects **Others ways to sign in**.
 4. Select **Approve a request on my Microsoft Authenticator app**.
 
-The user is then presented with a number on screen.
+The user is then presented with a number on screen:
+
 ![](/assets/images/PASSWORDLESS/12.png)
 
-The **Autenticator app** prompts the user to autenticate by typing in the correct number, instead of by entering their account password.
+The **Autenticator app** prompts the user to autenticate by typing in the correct number, instead of by entering their account password:
+
 ![](/assets/images/PASSWORDLESS/13.png)
 
 
 If the user would like to disable phone sign-in, they can select **Disable phone sign-in** in the **Authenticator app** and follow the steps to disable this service.
 
-![enter image description here](/assets/images/PASSWORDLESS/15.png)
+![](/assets/images/PASSWORDLESS/15.png)
 
 
 ### Device registration
@@ -93,9 +97,3 @@ Before you can create this new strong credential, there are prerequisites. One p
 Currently, a device can only be enabled for passwordless sign-in in a **single tenant**. This limit means that only one work or school account in the Microsoft Authenticator app can be enabled for phone sign-in.
 
 >Device registration is not the same as device management or mobile device management (MDM). Device registration only associates a device ID and a user ID together, in the Azure AD directory.
-
-
-
-
-
-
