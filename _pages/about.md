@@ -5,9 +5,9 @@ title: "About"
 
 Freddie Christiansen currently works as a consultant at Elverum municipality of which he is a part of the Cloud migration and user-adoption team.
 
-Products and services he works with include Microsoft infrastructure such as Microsoft Azure, Microsoft 365 and Windows Server.
+Products and services he works with include Microsoft technologies such as Microsoft Azure, Microsoft 365 and Exchange Server.
 
-He is also experienced with Hyper-V, VMware, Exchange Server, FortiGate and Cisco Meraki.
+He is also experienced with Hyper-V, VMware, Windows Server, FortiGate and Cisco Meraki.
 
 In his job he meets different objectives and tries to solve them all using PowerShell.
 
