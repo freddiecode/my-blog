@@ -37,9 +37,11 @@ He is a member of the Norwegian PowerShell User Group and spends a lot of time a
 **Currently looking into:**
 
 * Becoming a PowerShell ninja :smile:
+* C# - Blazor and .NET MAUI
+* Azure IoT
+* Microsoft Graph SDK
 * Microsoft Power Platform
-* Microsoft Graph
-* C# - Blazor and Xamarin Development
+
 
 
 **Wanna get in touch with him?**
