@@ -28,7 +28,7 @@ He is a member of the Norwegian PowerShell User Group and spends a lot of time a
 
 <img src="/assets/images/azure-administrator-associate-600x600.png" alt="AZ900" width="120" height="120">
 
-<img src="/assets/images/azure-fundamentals-600x600.png" alt="AZ900" width="120" height="120">
+<img src="/assets/images/azure-fundamentals.png" alt="AZ900" width="120" height="120">
 
 <img src="/assets/images/microsoft-certified-fundamentals-badge.svg" alt="MS365" width="120" height="120">
 
