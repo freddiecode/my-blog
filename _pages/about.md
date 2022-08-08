@@ -41,7 +41,7 @@ He is a member of the Norwegian PowerShell User Group and spends a lot of time a
 
 
 
-**Wanna get in touch with him?**
+**Want to get in touch with him?**
 
 LinkedIn: [Freddie Christiansen](<https://www.linkedin.com/in/freddie-christiansen-64305b106>)
 
