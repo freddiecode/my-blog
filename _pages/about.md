@@ -35,6 +35,10 @@ He is a member of the Norwegian PowerShell User Group and spends a lot of time a
 <img src="/assets/images/CMNA.png" alt="MS365" width="320" height="105">
 
 
+| First Header  | Second Header |
+| ------------- | ------------- |
+| ![](/assets/images/azure-administrator-associate-600x600.png)| ![](/assets/images/azure-fundamentals.png)|
+
 
 **Currently looking into:**
 
