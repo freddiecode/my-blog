@@ -18,6 +18,7 @@ He is a member of the Norwegian PowerShell User Group and spends a lot of time a
  
 **Certifications:**
 
+* Microsoft Certified: Azure Administrator Associate
 * Microsoft Certified: Azure Fundamentals
 * Microsoft 365 Certified: Fundamentals
 * VMware Certified Associate (VCA-DCV) - Data Center Virtualization
