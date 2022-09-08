@@ -8,7 +8,7 @@ Freddie Christiansen currently works as a Senior Engineer at Sopra Steria.
 Products and services he works with include Microsoft technologies such as Microsoft 365 and Microsoft Azure.
 He likes to dive deep into new technologies in order to develop his skill set further.
 
-He is also experienced with Hyper-V, VMware, Windows Server, FortiGate and Cisco Meraki.
+#He is also experienced with Hyper-V, VMware, Windows Server, FortiGate and Cisco Meraki.
 
 In his job he meets different objectives and tries to solve them all using PowerShell.
 
