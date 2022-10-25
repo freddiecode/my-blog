@@ -24,7 +24,7 @@ He is a member of the Norwegian PowerShell User Group and spends a lot of time a
 * Cisco Certified Entry Networking Technician (ICND1) – *04/16 – 04/19*
 
 
-![](/assets/images/azure-administrator-associate-600x600.png) ![](/assets/images/azure-fundamentals.png) ![](/assets/images/microsoft365-fundamentals.png) ![](/assets/images/CMNA.png)
+![](/assets/images/azure-administrator-associate-600x600.png) ![](/assets/images/microsoft-365-certified-security-administrator-associate_340.png) ![](/assets/images/azure-fundamentals.png) ![](/assets/images/microsoft365-fundamentals.png) ![](/assets/images/CMNA.png)
 
 
 
