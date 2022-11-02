@@ -20,6 +20,7 @@ He is a member of the Norwegian PowerShell User Group and spends a lot of time a
 * Microsoft Certified: Azure Administrator Associate
 * Microsoft Certified: Azure Fundamentals
 * Microsoft 365 Certified: Fundamentals
+* C# programming using .NET Core - University of Washington
 * VMware Certified Associate (VCA-DCV) - Data Center Virtualization
 * VMware Data Center Virtualization Fundamentals v6
 * Cisco Meraki - Cisco Meraki Certified Networking Associate (CMNA)
