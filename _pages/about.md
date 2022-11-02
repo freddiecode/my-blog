@@ -15,6 +15,8 @@ He is a member of the Norwegian PowerShell User Group and spends a lot of time a
   
 **Certifications:**
 
+* Microsoft Certified: Microsoft 365 Security Administration
+* Microsoft Certified: Configuring and Operating Microsoft Azure Virtual Desktop
 * Microsoft Certified: Azure Administrator Associate
 * Microsoft Certified: Azure Fundamentals
 * Microsoft 365 Certified: Fundamentals
