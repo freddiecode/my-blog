@@ -263,9 +263,6 @@ Now that we have successfully put out existing Azure AD Connect instance in **st
 >ℹ️ *Tip*
 >If you want to read more about gMSA - **Group Managed Service Accounts**, see official Microsoft documentation found [here](https://learn.microsoft.com/en-us/azure/active-directory/cloud-sync/how-to-prerequisites?tabs=public-cloud#group-managed-service-accounts)↗️
 
-When the installation and setup is completed, you'll be able to view the newly created `Managed Service Account` in the following container in **Active Directoy Users and Computers**:
-![img](/assets/images/AADCloudSync/40.png)
-
 9. On the *Connect Active Directory* screen, your domain should already be connected. If not, click **Add directory** to add your domain and click **Next**.
 ![img](/assets/images/AADCloudSync/14.png) 
 
