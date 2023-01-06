@@ -183,7 +183,8 @@ Microsoft has provided the community with a video that shows an excellent overvi
 
 ## Migrate from Azure AD Connect to Azure AD Connect Cloud Sync
 
-In the following sections, I will descripe a *possible* workflow for transition from `Azure AD Connect` to `Azure AD Connect Cloud Sync`. Note: This may not be best-practice.
+In the following sections, I will descripe a *possible* workflow for transition from `Azure AD Connect` to `Azure AD Connect Cloud Sync`. 
+Note: This may not be best-practice.
 
 Scenario: A reasonably traditional Azure AD Connect configuration. In my demo environment, I have a have a **single forest, single domain with a single domain controller with Azure AD Connect** installed. I prefer to use *Organization based* synchronisation. By using this approach I am able to select which OUs (containing users/groups and devices ) that will be synchronized to Azure AD.
 
@@ -308,13 +309,16 @@ When the sync agent is successfully installed on our server, the rest of the con
 >⚠️ **Important!**
 When migrating to Azure AD Connect Cloud Sync from an existing Azure AD Connect implementation, it is crusial that you include **all  previously synced AD objects**. If not, you may find yourself in need of restoring deleted objects.
 
-11. You can leave the **Manage attributtes** options as **default** unless your organization have some custom mapping of attributes. Ensure **Sync password hashes** are enabled. 
+12. You can leave the **Manage attributtes** options as **default** unless your organization have some custom mapping of attributes. Ensure **Sync password hashes** are enabled. 
 ![img](/assets/images/AADCloudSync/24.png)
-12. Under the **Validate** step, it is recommended that the sync is working as expected. Select the **Provision a user** button. Repeat the steps previously described in this tutorial to collect the **distinguishedName** value of your test user account in one of your already set up OUs. Paste the value on the **Provision on-demand** blade and click **Provision**.
+
+13. Under the **Validate** step, it is recommended that the sync is working as expected. Select the **Provision a user** button. Repeat the steps previously described in this tutorial to collect the **distinguishedName** value of your test user account in one of your already set up OUs. Paste the value on the **Provision on-demand** blade and click **Provision**.
 ![img](/assets/images/AADCloudSync/25.png)
 ![enter image description here](/assets/images/AADCloudSync/26.png)
+
 14. Wait 5-10 seconds for the provisioning to complete. Click on the **View details** button under each step to get more insights and to verify that the settings display as expected. Click **Finish** button at the buttom of the page to continue.
 ![enter image description here](/assets/images/AADCloudSync/27.png)
+
 15. Under the **Settings** step, enter an email address to receive notifications when an error has occured. Also note that under this step, you'll have the option to adjust the setting *Prevent accidential deletion*. I highly recommend that you leave this option **on** and adjust the threshold under *Accidential delete threshold* from the default value of 500 to somewhat more appropriate and manageable level.
 ![img](/assets/images/AADCloudSync/28.png)
 
@@ -329,10 +333,13 @@ Now that Azure AD Connect Cloud Sync is installed successfully and running, we a
 
 1. On your server, open the **Control panel**, under *Programs*, select **Uninstall a program**.
 ![img](/assets/images/AADCloudSync/31.png)
+
 2. Select **Microsoft Azure AD Connect** and click **Uninstall**.
 ![img](/assets/images/AADCloudSync/32.png)
+
 3. Leave the defaults and click **Remove**.
 ![img](/assets/images/AADCloudSync/33.png)
+
 4. Wait for the unistall to complete. When finished, click **Exit**.
 ![img](/assets/images/AADCloudSync/34.png)
 
@@ -342,10 +349,9 @@ You can enable password writeback for your synced users from on-premises directo
 
 - Azure portal:
   1. Sign in to the Azure portal using a `Global Administrator account`.
-  
-  3. Search for and select **Azure Active Directory**, select **Password reset**, then choose **On-premises integration**.
-  4. Check the option for  **Write back passwords to your on-premises directory**.
-  5. If Azure AD Connect provisioning agents are detected, you can additionally check the option for **Write back passwords with Azure AD Connect cloud sync**.
+  2. Search for and select **Azure Active Directory**, select **Password reset**, then choose **On-premises integration**.
+  3. Check the option for  **Write back passwords to your on-premises directory**.
+  4. If Azure AD Connect provisioning agents are detected, you can additionally check the option for **Write back passwords with Azure AD Connect cloud sync**.
 ![enter image description here](/assets/images/AADCloudSync/38.png)
 - Powershell:
 With PowerShell you can enable Azure AD Connect cloud sync by using the `Set-AADCloudSyncPasswordWritebackConfiguration` cmdlet on the servers with the provisioning agents. You will need global administrator credentials:
@@ -405,7 +411,9 @@ The ````AADCloudSyncTools```` module provides a set of useful tools that can hel
     
     All [prerequisites](https://learn.microsoft.com/en-us/azure/active-directory/cloud-sync/reference-powershell#prerequisites) should now be installed.
 ![enter image description here](/assets/images/AADCloudSync/37.png)
+
 8. Every time you want to use the `AADCloudSyncTools` module in a new PowerShell session, run the following command:
+
 ````powershell
 Import-module "C:\Program Files\Microsoft Azure AD Connect Provisioning Agent\Utility\AADCloudSyncTools"
 ````
