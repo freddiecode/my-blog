@@ -228,7 +228,7 @@ StagingModeEnabled                  : True
 SchedulerSuspended                  : False
 SyncCycleInProgress                 : False
 ```
-*(See that the returned property named `StagingModeEnabled equals `True` in the code snippet above)*.
+*(See that the returned property named `StagingModeEnabled` equals `True` in the code snippet above)*.
 
 This completes step 1. In the next step we will download and install the `Azure AD Connect Cloud Sync agent`.
 
