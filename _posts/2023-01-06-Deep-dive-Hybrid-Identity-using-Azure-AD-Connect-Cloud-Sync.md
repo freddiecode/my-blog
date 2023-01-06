@@ -155,7 +155,7 @@ Organizations should keep the following information in mind when considering the
 -   Users and groups must be uniquely identified across all forests.
 -   Matching across forests doesn't occur with Azure AD Connect Cloud Sync.
 -   A user or group must be represented only once across all forests.
--   The source anchor for objects is chosen automatically. It uses ms-DS-ConsistencyGuid if present; otherwise, ObjectGUID is used.
+-   The source anchor for objects is chosen automatically. It uses `ms-DS-ConsistencyGuid` if present; otherwise, ObjectGUID is used.
 -   You can't change the attribute that's used for the source anchor.
 
 ## Prerequisites for Azure AD Connect Cloud Sync
