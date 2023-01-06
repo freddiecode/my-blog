@@ -246,7 +246,6 @@ Now that we have successfully put out existing Azure AD Connect instance in **st
 
 4. Press **Download agent** on the top menu and start the download the pressing the **Accept terms & download** button. 
 ![img](/assets/images/AADCloudSync/09.png)
-
 ![img](/assets/images/AADCloudSync/10.png)
 
 5. When the download is complete, run the installer. When prompted, agree to the terms and conditions and click **Install**.
