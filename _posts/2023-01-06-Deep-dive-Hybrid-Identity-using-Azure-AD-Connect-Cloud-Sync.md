@@ -279,7 +279,7 @@ This completes step 2. In the next step we will configure and test synchronizati
 
 When the sync agent is successfully installed on our server, the rest of the configuration is done through **Azure Active Directory admin center**. 
 
-1.  Start off by returning to the **Azure AD Connect cloud sync** configuration blade: https://aad.portal.azure.com/#view/Microsoft_AAD_Connect_Provisioning/ProvisioningManagementBlade
+1.  Start off by returning to the **Azure AD Connect cloud sync** configuration blade: [https://aad.portal.azure.com/#view/Microsoft_AAD_Connect_Provisioning/ProvisioningManagementBlade](https://aad.portal.azure.com/#view/Microsoft_AAD_Connect_Provisioning/ProvisioningManagementBlade)
 
 2. The **New configuration** options on the top menu is no longer greyed out. Select it.
 ![img](/assets/images/AADCloudSync/17.png)
