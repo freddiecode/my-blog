@@ -212,7 +212,7 @@ Start off by setting Azure AD Connect into *Staging mode*. This is so we can ens
 7. The configuration completes with a confirmation that the **staging mode** is successfully enabled. Press **Exit** to close the wizard.
 ![img](/assets/images/AADCloudSync/06.png)
 
-You can also verify this at by using PowerShell:
+You can also verify this by using PowerShell:
 ```powershell
 Get-ADSyncScheduler
 
@@ -228,6 +228,8 @@ StagingModeEnabled                  : True
 SchedulerSuspended                  : False
 SyncCycleInProgress                 : False
 ```
+*(See that the returned property named `StagingModeEnabled equals `True` in the code snippet above)*.
+
 This completes step 1. In the next step we will download and install the `Azure AD Connect Cloud Sync agent`.
 
 ### Step 2: Download and install the new Azure AD Connect Cloud Sync agent
