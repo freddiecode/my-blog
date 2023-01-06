@@ -17,6 +17,7 @@ He is a member of the Norwegian PowerShell User Group and spends a lot of time a
 
 * Microsoft Certified: Microsoft Cybersecurity Architect
 * Microsoft Certified: Microsoft 365 Security Administration
+* Microsoft Certification Exam: MS-100: Microsoft 365 Identity and Services
 * Microsoft Certified: Configuring and Operating Microsoft Azure Virtual Desktop
 * Microsoft Certified: Azure Administrator Associate
 * Microsoft Certified: Azure Fundamentals
