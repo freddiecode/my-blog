@@ -8,10 +8,11 @@ categories:
 - Blog
 tags:
 - Hybrid Identity
-- Microsoft Azure Active Directroy
+- Azure Active Directory
 - Active Directory
 - PowerShell
 - Microsoft 365
+- Microsoft Azure
 ---
 ## Deep dive: Hybrid Identity using Azure AD Connect Cloud Sync
 
