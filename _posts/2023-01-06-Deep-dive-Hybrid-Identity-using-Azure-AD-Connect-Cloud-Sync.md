@@ -368,6 +368,7 @@ Set-AADCloudSyncPasswordWritebackConfiguration -Enable $true -Credential (Get-Cr
 
 Under the **Azure AD Connect cloud sync** blade, under **Configuration** you'll see your installed agents. Click the **Status state** to see the status of your agent configuration.
 ![img](/assets/images/AADCloudSync/35.png)
+
 ![img](/assets/images/AADCloudSync/36.png)
 
 ### Directory sync status
