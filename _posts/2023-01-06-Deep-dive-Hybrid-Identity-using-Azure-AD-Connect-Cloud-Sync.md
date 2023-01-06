@@ -246,6 +246,7 @@ Now that we have successfully put out existing Azure AD Connect instance in **st
 
 4. Press **Download agent** on the top menu and start the download the pressing the **Accept terms & download** button. 
 ![img](/assets/images/AADCloudSync/09.png)
+
 ![img](/assets/images/AADCloudSync/10.png)
 
 5. When the download is complete, run the installer. When prompted, agree to the terms and conditions and click **Install**.
@@ -265,7 +266,6 @@ Now that we have successfully put out existing Azure AD Connect instance in **st
 When the installation and setup is completed, you'll be able to view the newly created `Managed Service Account` in the following container in **Active Directoy Users and Computers**:
 ![img](/assets/images/AADCloudSync/40.png)
 
-
 9. On the *Connect Active Directory* screen, your domain should already be connected. If not, click **Add directory** to add your domain and click **Next**.
 ![img](/assets/images/AADCloudSync/14.png) 
 
@@ -275,7 +275,7 @@ When the installation and setup is completed, you'll be able to view the newly c
 11. Then the agent installation and configuration is completed, close the wizard by clicking **Exit**.
 ![enter image description here](/assets/images/AADCloudSync/16.png)
 
-This completes step 2. In the next step we will configure and test synchronization to the cloud with our new `Azure AD Connect Cloud Sync instance`.
+This completes step 2. In the next step we will configure and test synchronization to the cloud with our new **Azure AD Connect Cloud Sync** instance.
 
 ### Step 3: Configure Azure AD Connect Cloud Sync
 
