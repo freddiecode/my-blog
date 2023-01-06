@@ -293,37 +293,38 @@ When the sync agent is successfully installed on our server, the rest of the con
 5. Start on the top and work your way down the numbered settings. Start at the **Scope** settings. Click **Click to edit scoping filters**.
 ![enter image description here](/assets/images/AADCloudSync/20.png)
 
-7. A flyout will appear on the right. Here you will have to option to filter by *All users*, *Selected security groups* or *Selected organizational units*. As mentioned before, I prefer to filter by organizational units. Select the **radio button** next to **Selected organizational units**. Now we need the *distinguished name* of the OU object we want to synchronize to Azure AD.
+6. A flyout will appear on the right. Here you will have to option to filter by *All users*, *Selected security groups* or *Selected organizational units*. As mentioned before, I prefer to filter by organizational units. Select the **radio button** next to **Selected organizational units**. Now we need the *distinguished name* of the OU object we want to synchronize to Azure AD.
 ![img](/assets/images/AADCloudSync/21.png)
 
-8. Head over to your server where you have access to **Active Directory Users And Computers**. Verify what you have enabled *Advanced Features* under *View*.
+7. Head over to your server where you have access to **Active Directory Users And Computers**. Verify what you have enabled *Advanced Features* under *View*.
 ![img](/assets/images/AADCloudSync/22.png)
 
-9. Right-click your target OU, and select **Properties**. Select the **Attribute Editor** tab and double-click on the **distinguisedName** value. 
+8. Right-click your target OU, and select **Properties**. Select the **Attribute Editor** tab and double-click on the **distinguisedName** value. 
 
-10. Copy the **Value** (*right-click > Copy* or *Ctrl + C*) 
+9. Copy the **Value** (*right-click > Copy* or *Ctrl + C*) 
 ![img](/assets/images/AADCloudSync/22_01.png)
 
-11. Paste the value into the textbox into your **Scope users** configuration and click the **Add button**. Repeat this process if you have additional OUs (or users/security groups ) that you wish to synchronize. Click **Done** button at the buttom of the blade then finished.
+10. Paste the value into the textbox into your **Scope users** configuration and click the **Add button**. Repeat this process if you have additional OUs (or users/security groups ) that you wish to synchronize. Click **Done** button at the buttom of the blade then finished.
 ![enter image description here](/assets/images/AADCloudSync/23.png)
 
 >⚠️ **Important!**
 When migrating to Azure AD Connect Cloud Sync from an existing Azure AD Connect implementation, it is crusial that you include **all  previously synced AD objects**. If not, you may find yourself in need of restoring deleted objects.
 
-12. You can leave the **Manage attributtes** options as **default** unless your organization have some custom mapping of attributes. Ensure **Sync password hashes** are enabled. 
+11. You can leave the **Manage attributtes** options as **default** unless your organization have some custom mapping of attributes. Ensure **Sync password hashes** are enabled. 
 ![img](/assets/images/AADCloudSync/24.png)
 
-13. Under the **Validate** step, it is recommended that the sync is working as expected. Select the **Provision a user** button. Repeat the steps previously described in this tutorial to collect the **distinguishedName** value of your test user account in one of your already set up OUs. Paste the value on the **Provision on-demand** blade and click **Provision**.
+12. Under the **Validate** step, it is recommended that the sync is working as expected. Select the **Provision a user** button. Repeat the steps previously described in this tutorial to collect the **distinguishedName** value of your test user account in one of your already set up OUs. Paste the value on the **Provision on-demand** blade and click **Provision**.
 ![img](/assets/images/AADCloudSync/25.png)
+
 ![enter image description here](/assets/images/AADCloudSync/26.png)
 
-14. Wait 5-10 seconds for the provisioning to complete. Click on the **View details** button under each step to get more insights and to verify that the settings display as expected. Click **Finish** button at the buttom of the page to continue.
+13. Wait 5-10 seconds for the provisioning to complete. Click on the **View details** button under each step to get more insights and to verify that the settings display as expected. Click **Finish** button at the buttom of the page to continue.
 ![enter image description here](/assets/images/AADCloudSync/27.png)
 
-15. Under the **Settings** step, enter an email address to receive notifications when an error has occured. Also note that under this step, you'll have the option to adjust the setting *Prevent accidential deletion*. I highly recommend that you leave this option **on** and adjust the threshold under *Accidential delete threshold* from the default value of 500 to somewhat more appropriate and manageable level.
+14. Under the **Settings** step, enter an email address to receive notifications when an error has occured. Also note that under this step, you'll have the option to adjust the setting *Prevent accidential deletion*. I highly recommend that you leave this option **on** and adjust the threshold under *Accidential delete threshold* from the default value of 500 to somewhat more appropriate and manageable level.
 ![img](/assets/images/AADCloudSync/28.png)
 
-16. In the final **Deploy step**, when ready, click **Enable** and then click **Save** at the top of the page.
+15. In the final **Deploy step**, when ready, click **Enable** and then click **Save** at the top of the page.
 ![img](/assets/images/AADCloudSync/29.png)
 
 This completes step 3. In our final step in this tutorial, we will complete the migration by removing the old instance of `Azure AD Connect`.
