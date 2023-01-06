@@ -27,7 +27,7 @@ Integrating on-premises directories with Azure AD makes users more productive by
 
 -   Users can use a single identity to access on-premises applications and cloud services such as Microsoft 365.
 -   Organizations can use a single tool to provide an easy deployment experience for synchronization and sign in.
-There are two options to choose from to implement user account synchronization between on-premises AD and Azure AD - *Azure AD Connect sync* and *Azure AD Connect Cloud Sync*. The following sections outline the benefits, limitations, and features of each solution.
+There are two options to choose from to implement user account synchronization between on-premises AD and Azure AD - *Azure AD Connect sync* and *Azure AD Connect Cloud Sync*.
 
 First of all, let's take a trip down memory lane with a little overview of the currently most used synchronization tool for hybrid identity in Microsoft 365.
 
