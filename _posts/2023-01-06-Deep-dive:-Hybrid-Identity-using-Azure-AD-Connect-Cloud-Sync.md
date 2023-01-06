@@ -1,8 +1,9 @@
 ---
-
 title: "Deep dive: Hybrid Identity using Azure AD Connect Cloud Sync"
 classes: wide
 date: 2023-01-06 18:00:00
+toc: true
+toc_sticky: true
 categories:
 - Blog
 tags:
