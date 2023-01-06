@@ -68,7 +68,7 @@ plugins:
 author:
   name   : "Freddie Christiansen"
   avatar : "/assets/images/image2.jpg"
-  bio    : "Hi, I'm Freddie. I like PowerShell."
+  bio    : "Hi, I'm Freddie. I like Cloudy things."
   location : "Near Hamar, Norway"
   links:
     - label: "Near Hamar, Norway"
