@@ -447,7 +447,7 @@ Import-Module "C:\Program Files\Microsoft Azure AD Connect Provisioning Agent\Ut
 |Suspend-AADCloudSyncToolsJob|This cmdlet pauses synchronization.|
 
 
-### Additional useful resources:
+### Additional useful resources
 
 * Frequently asked questions: [Aure Active Directory Connect cloud sync FAQ](https://learn.microsoft.com/en-us/azure/active-directory/cloud-sync/reference-cloud-sync-faq)
 
