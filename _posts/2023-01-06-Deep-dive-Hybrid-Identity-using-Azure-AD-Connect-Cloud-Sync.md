@@ -3,7 +3,7 @@
 title: "Deep dive: Hybrid Identity using Azure AD Connect Cloud Sync"
 classes: wide
 toc: true
-date: 2023-01-06 16:00:00
+date: 2023-01-09 07:35:00
 categories:
 - Blog
 tags:
@@ -155,7 +155,7 @@ Organizations should keep the following information in mind when considering the
 -   Users and groups must be uniquely identified across all forests.
 -   Matching across forests doesn't occur with Azure AD Connect Cloud Sync.
 -   A user or group must be represented only once across all forests.
--   The source anchor for objects is chosen automatically. It uses `ms-DS-ConsistencyGuid` if present; otherwise, ObjectGUID is used.
+-   The source anchor for objects is chosen automatically. It uses `ms-DS-ConsistencyGuid` if present; otherwise, `ObjectGUID` is used.
 -   You can't change the attribute that's used for the source anchor.
 
 ## Prerequisites for Azure AD Connect Cloud Sync
@@ -187,7 +187,7 @@ Microsoft has provided the community with a video that shows an excellent overvi
 In the following sections, I will descripe a *possible* workflow for transition from `Azure AD Connect` to `Azure AD Connect Cloud Sync`. 
 Note: This may not be best-practice.
 
-Scenario: A reasonably traditional Azure AD Connect configuration. In my demo environment, I have a have a **single forest, single domain with a single domain controller with Azure AD Connect** installed. I prefer to use *Organization based* synchronisation. By using this approach I am able to select which OUs (containing users/groups and devices ) that will be synchronized to Azure AD.
+Scenario: A reasonably traditional Azure AD Connect configuration. In my demo environment, I have a have a **single forest, single domain with a single domain controller with Azure AD Connect** installed. I prefer to use *Organization based* synchronisation. By using this approach I am able to select which OUs (containing users and/or groups) that will be synchronized to Azure AD.
 
 ### Step 1: Configuring *Staging mode* for Azure AD Connect
 Start off by setting Azure AD Connect into *Staging mode*. This is so we can ensure that any changes made by deploying the new Azure *AD Connect Cloud Sync* are not being impacted by our existing *Azure AD Connect* implementation.
