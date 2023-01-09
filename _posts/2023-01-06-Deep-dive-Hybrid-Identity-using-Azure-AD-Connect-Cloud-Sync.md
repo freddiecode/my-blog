@@ -83,7 +83,7 @@ One of the primary differences between the two tools is where the provisioning c
 -   **Azure AD Connect sync**. The provisioning configuration is stored on the on-premises sync server. Provisioning also runs on the on-premises sync server.
 -   **Azure AD Connect Cloud Sync**. The provisioning configuration is stored in the cloud. Provisioning also runs in the cloud as part of the Azure AD provisioning service.
 
-The following table provides a comparison of the features in Azure AD Connect and Azure AD Connect Cloud Sync.
+The following table provides a comparison of the features in Azure AD Connect and Azure AD Connect Cloud Sync (as per january 2023):
 
 |  Feature | Azure AD Connect | Azure AD Connect Cloud Sync |
 |---|---|---|
