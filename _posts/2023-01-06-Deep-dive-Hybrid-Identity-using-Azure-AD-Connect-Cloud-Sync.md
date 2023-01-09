@@ -410,8 +410,7 @@ The ````AADCloudSyncTools```` module provides a set of useful tools that can hel
 6.  Import the module again by running  `Import-module -Name "C:\Program Files\Microsoft Azure AD Connect Provisioning Agent\Utility\AADCloudSyncTools"`.
     
 7.  Run  `Install-AADCloudSyncToolsPrerequisites`  again to install the MSAL and Azure AD modules.
-    
-    All [prerequisites](https://learn.microsoft.com/en-us/azure/active-directory/cloud-sync/reference-powershell#prerequisites) should now be installed.
+All [prerequisites](https://learn.microsoft.com/en-us/azure/active-directory/cloud-sync/reference-powershell#prerequisites) should now be installed.
 ![enter image description here](/assets/images/AADCloudSync/37.png)
 
 8. Every time you want to use the `AADCloudSyncTools` module in a new PowerShell session, run the following command:
