@@ -68,7 +68,7 @@ plugins:
 author:
   name   : "Freddie Christiansen"
   avatar : "/assets/images/image2.jpg"
-  bio    : ""
+  bio    : " "
   location : "Near Hamar, Norway"
   links:
     - label: "Near Hamar, Norway"
