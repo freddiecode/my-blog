@@ -73,7 +73,7 @@ To turn on the feature on your tenant, call `Enable-AzureADSSO -Enable $true`.
 
 Follow this steps in the Azure portal to verify that you have enabled Seamless SSO correctly:
 
-1. Sign in to the [Azure Active Directory administrative center](https://aad.portal.azure.com/) with a *Global Administrator* or *Hybrid Identity Administrator* credentials of your tenant.
+1. Sign in to the [Azure Active Directory administrative center](https://aad.portal.azure.com/)↗️ with a *Global Administrator* or *Hybrid Identity Administrator* credentials of your tenant.
 
 2. Select **Azure Active Directory** in the left pane. 
 
@@ -147,7 +147,7 @@ Perform the follwing steps on the on-premises server where you have the `Azure A
 
 #### Step 1. Disable the feature on your tenant:
 
-1. You need to have the Azure AD PowerShell module installed. You should already have this in place, as this one is a prerequisite for enabling Single Sign-On in the first place. If you need to re-install it, see guidance found [here](https://learn.microsoft.com/en-us/powershell/azure/active-directory/install-adv2?view=azureadps-2.0).
+1. You need to have the Azure AD PowerShell module installed. You should already have this in place, as this one is a prerequisite for enabling Single Sign-On in the first place. If you need to re-install it, see guidance found [here](https://learn.microsoft.com/en-us/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)↗️
 
 2. Open a new PowerShell window (as administrator) and navigate to the path where you extracted the files from Azure AD Connect under the **Setup section** in this blog post > **Step 3**.
 
