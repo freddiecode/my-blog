@@ -30,16 +30,21 @@ I recommend reading my previous blog post, [Deep dive: Hybrid Identity using Azu
 ### Step 1: Download and extract Azure AD Connect files
 
   1.  Start off by downloading the latest version of [Azure AD Connect](https://www.microsoft.com/download/details.aspx?id=47594)
+ 
   2. Open a PowerShell window (as administrator) and navigate to the msi file you just downloaded.
   
        *In this guide I have placed the msi file in a new folder named* `AADConnect`*, right below the `C:` drive.*
+![img](/assets/images/ADSSO/09.png)
   
-  4.  Run the following: `msiexec /a C:\AADConnect\AzureADConnect.msi /qb TARGETDIR=C:\AADConnect\<Desired name of subfolder>`
+  3.  Run the following: `msiexec /a C:\AADConnect\AzureADConnect.msi /qb TARGETDIR=C:\AADConnect\<Desired name of subfolder>`
   
       *Remember to change the filepath and  name the subfolder to match your file path and desired name*.
       This will extract the files under the new sub-folder named after your choice.
       
       In the example below I extracted the files to a sub-folder named `Extract`.
+      
+![img](/assets/images/ADSSO/10.png)
+
 ### Step 2: Import the Seamless SSO PowerShell module
 
  1. Download and install [Azure AD Powershell](https://learn.microsoft.com/en-us/powershell/azure/active-directory/overview)↗️
@@ -113,12 +118,17 @@ In addition, you need to enable an Intranet zone policy setting called **Allow u
 - **Value** (Data): `1`. 
 This indicates the *Intranet Zone*.
 
+![img](/assets/images/ADSSO/03.png)
+
 5. Select **OK** and then select **OK** again.
 
-6. Browse to **User Configuration** > **Policies** > **Administrative Templates** > **Windows Components** > **Internet Explorer** > **Internet Control Panel** > **Security Page** > **Intranet Zone**. Then scroll down until you find **Allow updates to status bar via script**. 
+6. Browse to **User Configuration** > **Policies** > **Administrative Templates** > **Windows Components** > **Internet Explorer** > **Internet Control Panel** > **Security Page** > **Intranet Zone**. Then scroll down until you find **Allow updates to status bar via script**.
+
+![img](/assets/images/ADSSO/05.png)
 
 7. Enable the policy setting, and then select **OK**.
 
+![img](/assets/images/ADSSO/06.png)
 
 ## Test the feature
 
