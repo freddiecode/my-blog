@@ -34,7 +34,7 @@ I recommend reading my previous blog post, [Deep dive: Hybrid Identity using Azu
   2. Open a PowerShell window (as administrator) and navigate to the msi file you just downloaded.
   
        *In this guide I have placed the msi file in a new folder named* `AADConnect`*, right below the `C:` drive.*
-![img](/assets/images/ADSSO/10.png)
+![img](/assets/images/ADSSO/08.png)
   
   3.  Run the following: `msiexec /a C:\AADConnect\AzureADConnect.msi /qb TARGETDIR=C:\AADConnect\<Desired name of subfolder>`
   
@@ -44,6 +44,8 @@ I recommend reading my previous blog post, [Deep dive: Hybrid Identity using Azu
       In the example below I extracted the files to a sub-folder named `Extract`.
       
 ![img](/assets/images/ADSSO/09.png)
+
+![img](/assets/images/ADSSO/19.png)
 
 ### Step 2: Import the Seamless SSO PowerShell module
 
