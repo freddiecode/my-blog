@@ -45,7 +45,7 @@ I recommend reading my previous blog post, [Deep dive: Hybrid Identity using Azu
       
 ![img](/assets/images/ADSSO/09.png)
 
-![img](/assets/images/ADSSO/19.png)
+![img](/assets/images/ADSSO/10.png)
 
 ### Step 2: Import the Seamless SSO PowerShell module
 
