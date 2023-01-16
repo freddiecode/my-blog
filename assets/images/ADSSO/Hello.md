@@ -83,6 +83,7 @@ Follow this steps in the Azure portal to verify that you have enabled Seamless S
 
 5. Verify that the **Seamless single sign-on** feature appears as **Enabled**.
 
+![img](/assets/images/AADSSO/01_02.png)
 
  ## Roll out the feature 
 
@@ -138,7 +139,9 @@ To test the scenario where the user doesn't have to enter the username or the pa
 Replace *Tenantname* with the name of your tenant.
 
 - Sign in to `https://myapps.microsoft.com/domain.com`
-Replace *domain.com* with one of your tenants verified domains. 
+Replace *domain.com* with one of your tenants verified domains.
+
+![img](/assets/images/AADSSO/SSO.gif)
 
 
 ## Disable Single Sign-On
@@ -163,7 +166,7 @@ Call `Get-AzureADSSOStatus | Convert-FromJson`. This command provides you with a
 
 #### Step 3. Manually delete the `AZUREADSSO` computer account from each AD forests that you see listed:
 
-Image here showing right-click > delete option.
+![img](/assets/images/AADSSO/15.png)
 
 
 
