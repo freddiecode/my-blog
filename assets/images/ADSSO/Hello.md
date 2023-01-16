@@ -141,7 +141,7 @@ Replace *Tenantname* with the name of your tenant.
 - Sign in to `https://myapps.microsoft.com/domain.com`
 Replace *domain.com* with one of your tenants verified domains.
 
-![img](/SSO.gif)
+![img](/assets/images/ADSSO/SSO.gif)
 
 
 ## Disable Single Sign-On
