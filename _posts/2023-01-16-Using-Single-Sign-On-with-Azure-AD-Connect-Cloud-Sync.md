@@ -99,9 +99,7 @@ Follow this steps in the Azure portal to verify that you have enabled Seamless S
 
 ![img](/assets/images/ADSSO/01_02.png)
 
- ## Roll out the feature 
-
-#### Step 1:
+## Roll out the feature 
 
 After you have verified that Seamless SSO has been successfully enabled, it's time to roll out the feature to your end-users.
 
