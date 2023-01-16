@@ -180,7 +180,7 @@ Perform the follwing steps on the on-premises server where you have the `Azure A
 
 Call `Get-AzureADSSOStatus | Convert-FromJson`. This command provides you with a list of AD forests (look at the "Domains" list) on which this feature has been enabled.
 
-### Step 3. Manually delete the `AZUREADSSO` computer account from each AD forests that you see listed:
+### Step 3. Manually delete the `AZUREADSSOACC` computer account from each AD forests that you see listed:
 
 ![img](/assets/images/ADSSO/15.png)
 
