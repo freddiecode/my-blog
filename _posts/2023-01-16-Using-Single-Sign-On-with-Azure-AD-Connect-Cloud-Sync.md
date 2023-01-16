@@ -162,7 +162,6 @@ Below is an example of the sign-in experience after Seamless SSO has been enable
 
 ![img](/assets/images/ADSSO/SSO.gif)
 
-
 ## Disable Single Sign-On
 
 Perform the follwing steps on the on-premises server where you have the `Azure AD Connect Cloud Sync agent` installed:
