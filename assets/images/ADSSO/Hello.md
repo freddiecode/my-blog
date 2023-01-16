@@ -83,7 +83,7 @@ Follow this steps in the Azure portal to verify that you have enabled Seamless S
 
 5. Verify that the **Seamless single sign-on** feature appears as **Enabled**.
 
-![img](/01_02.png)
+![img](/assets/images/ADSSO/01_02.png)
 
  ## Roll out the feature 
 
