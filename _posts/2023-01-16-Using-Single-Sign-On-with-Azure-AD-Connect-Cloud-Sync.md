@@ -139,7 +139,7 @@ This indicates the *Intranet Zone*.
 
 ![img](/assets/images/ADSSO/06.png)
 
-## Test the feature
+### Test the feature
 
 To test the feature for a specific user, ensure that all the following conditions are in place:
 
@@ -165,11 +165,11 @@ Below is an example of the sign-in experience after Seamless SSO has been enable
 ![img](/assets/images/ADSSO/SSO.gif)
 
 
-## Disable Single Sign-On
+### Disable Single Sign-On
 
 Perform the follwing steps on the on-premises server where you have the `Azure AD Connect Cloud Sync agent` installed:
 
-#### Step 1. Disable the feature on your tenant:
+### Step 1. Disable the feature on your tenant:
 
 1. You need to have the Azure AD PowerShell module installed. You should already have this in place, as this one is a prerequisite for enabling Single Sign-On in the first place. If you need to re-install it, see guidance found [here](https://learn.microsoft.com/en-us/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)↗️
 
@@ -181,10 +181,10 @@ Perform the follwing steps on the on-premises server where you have the `Azure A
 
 5. Call `Enable-AzureADSSO -Enable $false` to disable SSO.
 
-#### Step 2. Get a list of AD forests where Seamless SSO has been enabled:
+### Step 2. Get a list of AD forests where Seamless SSO has been enabled:
 
 Call `Get-AzureADSSOStatus | Convert-FromJson`. This command provides you with a list of AD forests (look at the "Domains" list) on which this feature has been enabled.
 
-#### Step 3. Manually delete the `AZUREADSSO` computer account from each AD forests that you see listed:
+### Step 3. Manually delete the `AZUREADSSO` computer account from each AD forests that you see listed:
 
 ![img](/assets/images/ADSSO/15.png)
