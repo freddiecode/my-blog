@@ -16,8 +16,6 @@ tags:
 - Microsoft Azure
 ---
 
-## Using Single Sign-On with Azure AD Connect Cloud Sync
-
 ## What is Azure Active Directory Seamless Single Sign-On?
 
 Azure Active Directory Seamless Single Sign-On (Azure AD Seamless SSO) automatically signs users in when they are on their corporate devices connected to your corporate network. When enabled, users don't need to type in their passwords to sign in to Azure AD, and usually, even type in their username. This feature provides your users easy access to your cloud-based applications without needing any additional on-premises components.
