@@ -159,7 +159,7 @@ Replace *Tenantname* with the name of your tenant.
 - Sign in to `https://myapps.microsoft.com/domain.com`
 Replace *domain.com* with one of your tenants verified domains.
 
-Below is an example of a end-user sign-in experience after Seamless SSO has been enabled:
+Below is an example of the sign-in experience after Seamless SSO has been enabled:
 
 ![img](/assets/images/ADSSO/SSO.gif)
 
