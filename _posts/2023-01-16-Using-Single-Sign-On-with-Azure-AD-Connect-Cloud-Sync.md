@@ -183,3 +183,9 @@ Call `Get-AzureADSSOStatus | Convert-FromJson`. This command provides you with a
 ### Step 3. Manually delete the `AZUREADSSO` computer account from each AD forests that you see listed:
 
 ![img](/assets/images/ADSSO/15.png)
+
+## Useful resources
+
+- [Using Single Sign-On with cloud sync](https://learn.microsoft.com/en-us/azure/active-directory/cloud-sync/how-to-sso)
+- [Azure Active Directory Seamless Single Sign-On: Frequently asked questions](https://learn.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-sso-faq)
+- [Azure Active Directory Seamless Single Sign-On: Technical deep dive](https://learn.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-sso-how-it-works)
