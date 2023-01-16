@@ -51,14 +51,19 @@ I recommend reading my previous blog post, [Deep dive: Hybrid Identity using Azu
  
  2. In your PowerShell window, navigate to your `ExtractFolder\Microsoft Azure Active Directory Connect` folder.
  
- 4. Import the `Seamless SSO` PowerShell module by using this command: `Import-Module .\AzureADSSO.psd1`.
+ 3. Import the `Seamless SSO` PowerShell module by using this command: `Import-Module .\AzureADSSO.psd1`.
+ 
+ ![img](/assets/images/ADSSO/11.png)
 
 ### Step 3: Get the list of Active Directory forest on which Seamless SSO has (already) been enabled
 
  1. In your PowerShell window (*as you already have successfully imported the* `AzureADSSO` *module in*), call the `New-AzureADSSOAuthenticationContext` cmdlet. When prompted, enter your tenant's *Global Administrator* credentials.
  
+ ![img](/assets/images/ADSSO/12.png)
  
- 3. Next, call the `Get-AzureADSSOStatus` cmdlet. This command provides you with the list of Active Directory forests (look at the "Domains" list in the output) on which this feature has (already) been enabled.
+ 2. Next, call the `Get-AzureADSSOStatus` cmdlet. This command provides you with the list of Active Directory forests (look at the "Domains" list in the output) on which this feature has (already) been enabled.
+
+![img](/assets/images/ADSSO/13.png)
 
 ### Step 4: Enable Seamless SSO for each Active Directory forest
 
@@ -73,6 +78,7 @@ I recommend reading my previous blog post, [Deep dive: Hybrid Identity using Azu
 
 To turn on the feature on your tenant, call `Enable-AzureADSSO -Enable $true`.
 
+![img](/assets/images/ADSSO/14.png)
 
 ## Verify
 
