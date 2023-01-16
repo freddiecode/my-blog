@@ -139,7 +139,7 @@ This indicates the *Intranet Zone*.
 
 ![img](/assets/images/ADSSO/06.png)
 
-### Test the feature
+## Test the feature
 
 To test the feature for a specific user, ensure that all the following conditions are in place:
 
@@ -165,7 +165,7 @@ Below is an example of the sign-in experience after Seamless SSO has been enable
 ![img](/assets/images/ADSSO/SSO.gif)
 
 
-### Disable Single Sign-On
+## Disable Single Sign-On
 
 Perform the follwing steps on the on-premises server where you have the `Azure AD Connect Cloud Sync agent` installed:
 
