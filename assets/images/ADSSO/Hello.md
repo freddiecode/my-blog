@@ -168,7 +168,7 @@ Call `Get-AzureADSSOStatus | Convert-FromJson`. This command provides you with a
 
 #### Step 3. Manually delete the `AZUREADSSO` computer account from each AD forests that you see listed:
 
-![img](/15.png)
+![img](/assets/images/ADSSO/15.png)
 
 
 
