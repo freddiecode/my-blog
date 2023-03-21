@@ -1,6 +1,6 @@
 ---
 
-title: "Product review FIDO Certified Security Key from FEITIAN"
+title: "Product review: FIDO Certified Security Key from FEITIAN"
 classes: wide
 toc: false
 date: 2023-03-21 07:00:00
@@ -13,8 +13,6 @@ tags:
 - Security keys
 - Cloud security
 ---
-
-## Product review: FIDO Certified Security Key from FEITIAN
 
 In recent years, the need for secure and easy-to-use authentication methods has become increasingly important in the world of online security. Enter FIDO, or Fast Identity Online, an open standard that aims to provide strong authentication using public key cryptography. Among the various FIDO options available, one that stands out is the FIDO Key from [Feitian Technologies](https://www.ftsafe.com/).
 
