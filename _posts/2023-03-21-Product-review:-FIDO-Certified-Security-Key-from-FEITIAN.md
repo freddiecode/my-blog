@@ -2,13 +2,15 @@
 
 title: "Product review: FIDO Certified Security Key from FEITIAN"
 classes: wide
-toc: true
-date: 2023-01-16 20:19:00
+toc: false
+date: 2023-03-21 16:00:00
 categories:
 - Blog
 tags:
 - FEITIAN
 - FIDO
+- Fast Identity Online
+- Security keys
 - Cloud security
 ---
 
