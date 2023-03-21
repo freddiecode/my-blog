@@ -18,13 +18,13 @@ In recent years, the need for secure and easy-to-use authentication methods has 
 
 <img src="/assets/images/FIDO/01.jpg"/>
 
-<img src="/assets/images/FIDO/02.jpg"/>
-
 The FIDO Key is a USB device that provides strong two-factor authentication, meaning it requires both a physical key and a PIN or biometric identifier to access an account. It is compatible with various operating systems, including Windows, macOS, and Linux, and supports a range of browsers, such as Chrome, Firefox, and Edge.
 
 One of the key features of the FIDO Key is its simplicity. Users only need to plug it in and enter their PIN or biometric identifier to complete the authentication process, making it easy to use even for those who are not tech-savvy. Furthermore, the key is designed to resist phishing attacks and other types of fraud, thanks to its use of public key cryptography and FIDO protocols.
 
 The FIDO Key is also versatile and can be used for a variety of applications, including online banking, email, and social media. It can also be used for enterprise-level applications, providing an extra layer of security for corporate accounts and networks.
+
+<img src="/assets/images/FIDO/02.jpg"/>
 
 Overall, the FIDO Key from Feitian Technologies is a reliable and user-friendly option for strong authentication. Its ease of use, compatibility with multiple platforms and browsers, and resistance to fraud make it a standout choice for those looking to enhance their online security.
 
