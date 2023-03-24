@@ -25,6 +25,8 @@ One of the key features of the FIDO Key is its simplicity. Users only need to pl
 Watch the video below on how their security keys integrates perfectly with Azure Active Directory.
 ![YouTube](https://youtu.be/3ZfpAHQyl3Y)
 
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/3ZfpAHQyl3Y/0.jpg)](https://youtu.be/3ZfpAHQyl3Y)
+
 The FIDO Key is also versatile and can be used for a variety of applications, including online banking, email, and social media. It can also be used for enterprise-level applications, providing an extra layer of security for corporate accounts and networks.
 
 <img src="/assets/images/FIDO/02.jpg"/>
