@@ -22,7 +22,7 @@ The FIDO Key is a USB device that provides strong two-factor authentication, mea
 
 One of the key features of the FIDO Key is its simplicity. Users only need to plug it in and enter their PIN or biometric identifier to complete the authentication process, making it easy to use even for those who are not tech-savvy. Furthermore, the key is designed to resist phishing attacks and other types of fraud, thanks to its use of public key cryptography and FIDO protocols.
 
-Watch the video below on how their security keys integrates perfectly with Azure Active Directory.
+Watch the video below on how their security keys integrates perfectly with `Azure Active Directory` for a true passwordless experience.
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/3ZfpAHQyl3Y/0.jpg)](https://youtu.be/3ZfpAHQyl3Y)
 
