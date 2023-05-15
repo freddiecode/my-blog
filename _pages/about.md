@@ -28,9 +28,7 @@ He is a member of the Norwegian PowerShell User Group and spends a lot of time a
 
 
 
-![](/assets/images/microsoft-365-certified-enterprise-administrator-expert.png) ![](/assets/images/microsoft-certified-cybersecurity-architect-expert.png.png) ![](/assets/images/azure-administrator-associate-600x600.png)![](/assets/images/microsoft-365-certified-security-administrator-associate_340.png) ![](/assets/images/exam-ms100-600x600.png) ![](/assets/images/microsoft-certified-azure-virtual-desktop-specialty_340.png)![](/assets/images/azure-fundamentals.png) ![](/assets/images/microsoft365-fundamentals.png)![](/assets/images/CMNA.png)
-
-![](/assets/images/uw_logo.png)
+![](/assets/images/microsoft-365-certified-enterprise-administrator-expert.png) ![](/assets/images/microsoft-certified-cybersecurity-architect-expert.png.png) ![](/assets/images/azure-administrator-associate-600x600.png)![](/assets/images/microsoft-365-certified-security-administrator-associate_340.png) ![](/assets/images/exam-ms100-600x600.png) ![](/assets/images/microsoft-certified-azure-virtual-desktop-specialty_340.png)![](/assets/images/azure-fundamentals.png) ![](/assets/images/microsoft365-fundamentals.png)![](/assets/images/CMNA.png) ![](/assets/images/uw_logo.png)
 
 
 
