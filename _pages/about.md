@@ -15,13 +15,11 @@ He is a member of the Norwegian PowerShell User Group and spends a lot of time a
   
 **Certifications:**
 
+* Microsoft 365 Certified: Enterprise Administrator Expert
 * Microsoft Certified: Microsoft Cybersecurity Architect
 * Microsoft Certified: Microsoft 365 Security Administration
-* Microsoft Certification Exam: MS-100: Microsoft 365 Identity and Services
 * Microsoft Certified: Configuring and Operating Microsoft Azure Virtual Desktop
 * Microsoft Certified: Azure Administrator Associate
-* Microsoft Certified: Azure Fundamentals
-* Microsoft 365 Certified: Fundamentals
 * University of Washington: C# programming using .NET Core
 * VMware Certified Associate (VCA-DCV) - Data Center Virtualization
 * VMware Data Center Virtualization Fundamentals v6
@@ -30,7 +28,7 @@ He is a member of the Norwegian PowerShell User Group and spends a lot of time a
 
 
 
-![](/assets/images/microsoft-certified-cybersecurity-architect-expert.png.png) ![](/assets/images/azure-administrator-associate-600x600.png)![](/assets/images/microsoft-365-certified-security-administrator-associate_340.png) ![](/assets/images/exam-ms100-600x600.png) ![](/assets/images/microsoft-certified-azure-virtual-desktop-specialty_340.png)![](/assets/images/azure-fundamentals.png) ![](/assets/images/microsoft365-fundamentals.png)![](/assets/images/CMNA.png)
+![/assets/images/microsoft-365-certified-enterprise-administrator-expert.png] ![](/assets/images/microsoft-certified-cybersecurity-architect-expert.png.png) ![](/assets/images/azure-administrator-associate-600x600.png)![](/assets/images/microsoft-365-certified-security-administrator-associate_340.png) ![](/assets/images/exam-ms100-600x600.png) ![](/assets/images/microsoft-certified-azure-virtual-desktop-specialty_340.png)![](/assets/images/azure-fundamentals.png) ![](/assets/images/microsoft365-fundamentals.png)![](/assets/images/CMNA.png)
 
 ![](/assets/images/uw_logo.png)
 
