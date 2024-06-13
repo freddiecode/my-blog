@@ -11,11 +11,11 @@ tags:
 - Windows PowerShell
 - PowerShell Gallery
 ---
-# Understanding the Difference Between `Get-Module -ListAvailable` and `Get-InstalledModule` in PowerShell
+## Understanding the Difference Between `Get-Module -ListAvailable` and `Get-InstalledModule` in PowerShell
 
 In PowerShell, both `Get-Module -ListAvailable` and `Get-InstalledModule` are used to retrieve information about modules, but they serve different purposes and functions. Here’s a detailed look at the differences between these two commands and when to use each.
 
-## `Get-Module -ListAvailable`
+### `Get-Module -ListAvailable`
 
 - **Purpose**: Retrieves a list of all modules available on your system, including those not necessarily installed via PowerShellGet.
 - **Function**: Displays modules that are located in the paths listed in `$env:PSModulePath`. This includes modules manually placed, bundled with the operating system, or installed through various means.
@@ -27,11 +27,11 @@ Get-Module -ListAvailable
 ```
 This command will show all modules that PowerShell can find on your system, regardless of how they were made available.
 
-`Get-InstalledModule`
+### `Get-InstalledModule`
 - Purpose: Retrieves a list of modules installed using PowerShellGet.
 - Function: Displays only those modules installed from the PowerShell Gallery or other registered repositories via PowerShellGet. This includes detailed information such as versions and installation details.
 
-#### Example:
+**Example**:
 
 ```powershell
 Get-InstalledModule
@@ -82,7 +82,9 @@ This command gives detailed information about modules installed from the PowerSh
 Get-InstalledModule -Name ModuleName
 ```
 
-#### Summary
-Get-Module -ListAvailable: Use this command to get an overview of all available modules on your system, regardless of how they were installed or placed.
-Get-InstalledModule: Use this command to manage and get details about modules installed via PowerShellGet, including version and origin information.
+### Summary
+```Get-Module -ListAvailable```: Use this command to get an overview of all available modules on your system, regardless of how they were installed or placed.
+
+```Get-InstalledModule```: Use this command to manage and get details about modules installed via PowerShellGet, including version and origin information.
+
 By using these commands appropriately, you can better manage the modules in your PowerShell environment and ensure you have access to the necessary tools for your tasks.
