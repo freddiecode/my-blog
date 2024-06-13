@@ -60,10 +60,10 @@ This command will list all modules installed through PowerShellGet, providing de
     * Provides detailed information about installed modules including version and source.
     * Essential for updating and maintaining modules installed via PowerShellGet.
 
-### Examples of Usage
-&nbsp;
-&nbsp;
-**Get-Module -ListAvailable**
+**Examples of Usage**:
+
+
+````Get-Module -ListAvailable````
 This command provides a comprehensive list of all available modules on your system:
 
 ```powershell
@@ -71,7 +71,7 @@ Get-Module -ListAvailable
 ```
 This will list all modules located in the paths specified in $env:PSModulePath, which is useful for identifying available modules regardless of their installation method.
 
-**Get-InstalledModule**
+````Get-InstalledModule````
 To get a list of all modules installed via PowerShellGet, use:
 
 ```powershell
