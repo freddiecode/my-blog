@@ -61,7 +61,8 @@ This command will list all modules installed through PowerShellGet, providing de
     * Essential for updating and maintaining modules installed via PowerShellGet.
 
 ### Examples of Usage
-
+&nbsp;
+&nbsp;
 **Get-Module -ListAvailable**
 This command provides a comprehensive list of all available modules on your system:
 
