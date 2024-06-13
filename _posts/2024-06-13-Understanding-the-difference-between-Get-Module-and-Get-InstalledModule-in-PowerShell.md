@@ -67,7 +67,7 @@ This command provides a comprehensive list of all available modules on your syst
 ```powershell
 Get-Module -ListAvailable
 ```
-This will list all modules located in the paths specified in $env:PSModulePath, which is useful for identifying available modules regardless of their installation method.
+This will list all modules located in the paths specified in ````$env:PSModulePath````, which is useful for identifying available modules regardless of their installation method.
 
 ```Get-InstalledModule```
 To get a list of all modules installed via ```PowerShellGet```, use:
