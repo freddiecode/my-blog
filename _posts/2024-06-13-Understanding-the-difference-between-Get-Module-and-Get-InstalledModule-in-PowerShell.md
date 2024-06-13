@@ -42,9 +42,9 @@ This command will list all modules installed through PowerShellGet, providing de
 
 | Feature | Get-Module -ListAvailable | Get-InstalledModule |
 |----------|----------|----------|
-| Scope    | All modules available on the system   | Modules installed through PowerShellGet |
+| Scope    | All modules available on the system   | Modules installed through ````PowerShellGet```` |
 | Search Paths    | Checks ```$env:PSModulePath```   | Only PowerShellGet-installed modules |
-| Module Source    | OS-bundled, manually placed, and PowerShellGet   | Only PowerShell Gallery or registered repositories |
+| Module Source    | OS-bundled, manually placed, and ````PowerShellGet````   | Only PowerShell Gallery or registered repositories |
 | Use Cases | Finding all possible modules for import | Managing and getting details about PowerShellGet modules | 
 
 
