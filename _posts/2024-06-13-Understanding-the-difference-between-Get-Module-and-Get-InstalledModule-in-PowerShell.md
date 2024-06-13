@@ -11,8 +11,6 @@ tags:
 - Windows PowerShell
 - PowerShell Gallery
 ---
-## Understanding the Difference Between `Get-Module -ListAvailable` and `Get-InstalledModule` in PowerShell
-
 In PowerShell, both `Get-Module -ListAvailable` and `Get-InstalledModule` are used to retrieve information about modules, but they serve different purposes and functions. Here’s a detailed look at the differences between these two commands and when to use each.
 
 ### `Get-Module -ListAvailable`
