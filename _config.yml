@@ -68,7 +68,7 @@ plugins:
 author:
   name   : "Freddie Christiansen"
   avatar : "/assets/images/image2.jpg"
-  bio    : "Senior Engineer &nbsp; Microsoft 365"
+  bio    : "Senior Engineer - Microsoft 365"
   location : "Hamar, Norway"
   links:
     - label: "Hamar, Norway"
