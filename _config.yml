@@ -69,9 +69,9 @@ author:
   name   : "Freddie Christiansen"
   avatar : "/assets/images/image2.jpg"
   bio    : "Senior Engineer"
-  location : "Near Hamar, Norway"
+  location : "Hamar, Norway"
   links:
-    - label: "Near Hamar, Norway"
+    - label: "Hamar, Norway"
       icon: "fas fa-map-marker-alt"
     - label: " Mail"
       icon: "far fa-envelope"
