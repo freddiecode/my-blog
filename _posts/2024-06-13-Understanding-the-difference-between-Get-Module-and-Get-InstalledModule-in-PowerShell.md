@@ -74,7 +74,9 @@ Get-InstalledModule
 ```
 To get a list of all modules installed via ```PowerShellGet```, use:
 
-````Get-InstalledModule````
+```powershell
+Get-InstalledModule
+```
 This command gives detailed information about modules installed from the PowerShell Gallery or other registered repositories. For example, to get information about a specific module, you can use:
 
 ```powershell
