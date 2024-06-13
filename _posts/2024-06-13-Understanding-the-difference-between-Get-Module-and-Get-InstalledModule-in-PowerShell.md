@@ -72,7 +72,7 @@ This will list all modules located in the paths specified in ````$env:PSModulePa
 ````Get-InstalledModule````
 To get a list of all modules installed via ```PowerShellGet```, use:
 
-```powershell
+```
 Get-InstalledModule
 ```
 This command gives detailed information about modules installed from the PowerShell Gallery or other registered repositories. For example, to get information about a specific module, you can use:
