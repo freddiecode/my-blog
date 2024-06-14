@@ -3,7 +3,7 @@
 title: "Understanding the difference between Get-Module and Get-InstalledModule in PowerShell"
 classes: wide
 toc: false
-date: 2024-06-14 07:00:00
+date: 2024-06-13 07:00:00
 categories:
 - Blog
 tags:
